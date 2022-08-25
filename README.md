@@ -1,7 +1,7 @@
 <br />
 <div style="text-align: center">
 
-<img src="https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/airLogo.png" witdth="250px"/>
+<img src="https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/airLogo.png" width="250px"/>
 
 <br />
 
@@ -105,9 +105,26 @@ The following projects are geared towards improving the availability of monsoon 
 <br />
 
 ### **Monsoon Scraper**
-This project centralizes public data from several different flood control district (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research. To gather this data we have written a number of applications that run at different intervals dependent on the different FCD network implementations. These applications run on 15 minute to 1 hour intervals. These time intervals are required in order to obtain incremental precipitation data readings which are not available if  gathering data on an hour or day interval. In addition to precipitation data, some FCD sensors also report temperature, pressure, humidity, and stream flow intensity in washes.
+This project centralizes public data from several different Flood Control District (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research. To gather this data we have written a number of applications that run at different intervals dependent on the different FCD network implementations. These applications run on 15 minute to 1 hour intervals. These time intervals are required in order to obtain incremental precipitation data readings which are not available if gathering data on an hour or day interval. In addition to precipitation data, some FCD sensors also report temperature, pressure, humidity, and stream flow intensity in washes.
+
+This dataset consists of the following remote sensing precipitation networks along with their API programmatic names. Additional networks will be added as they are implemented.
+
+- Pima County FCD - pima_fcd
+- Maricopa County FCD - maricopa_fcd
+- RainLog.org - rainlog
+- MesoWest - mesowest
+- Mohave County FCD - mohave_fcd (data beginning 2021)
+
+Data from the networks above are updated at different frequencies and in some cases multiple times per day or hour. This is variable across networks based on their configuration and if precipitation sensors are experiencing rainfall.
 
 The result of this work can be found in a Frontiers in Climate publication titled [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full).
+
+<br />
+
+### **Monsoon Data Application Programming Interface (API)**
+Once data from the Monsoon Scraper project was gathered, we developed a REST API to programmatically query the dataset. The API contains a number of custom routes designed to query specific sets of data. Some of these routes include our monsoon route which returns precipitation totals from specified networks or sensors between June 15th - September 30th of provided years, a flood route which returns data from flood gauge sensors typically found in washes, a sensors metadata route which returns metadata of specific sensors, and a readings route which queries specific sensors or networks using a provided date range.
+
+Currently, API keys are only issued to researchers working with this dataset. There are plans to expand this audience in the future.
 
 <br />
 
@@ -119,19 +136,11 @@ Monsoon Plotter is used to visually represent the data gathered via the Monsoon 
 <br />
 
 ### **Monsoon API Package/CLI Tool**
-This Python package serves as a wrapper to simplify REST API calls to the monsoon scraper data warehouse. This is the same dataset that is visually represented in our monsoon plotter found at [monsoon.environment.arizona.edu](https://monsoon.environment.arizona.edu). The plotter allows a limited export of the data dependent on the date range and sensor network being plotted. This package allows you to incorporate our monsoon dataset into a local codebase for processing. The dataset consist of the following remote sensing precipitation networks along with their programmatic names:
+This Python package serves as a wrapper to simplify REST API calls to the monsoon scraper data warehouse. This is the same dataset that is visually represented in our monsoon plotter found at [monsoon.environment.arizona.edu](https://monsoon.environment.arizona.edu). The plotter allows a limited export of the data dependent on the date range and sensor network being plotted. This package allows you to incorporate our monsoon dataset into a local codebase for processing. 
 
-- Pima County FCD - pima_fcd
-- Maricopa County FCD - maricopa_fcd
-- RainLog.org - rainlog
-- MesoWest - mesowest
-- Mohave County FCD - mohave_fcd (data beginning 2021)
+This package also contains a Command Line Interface (CLI) tool for those who prefer to work within a CLI instead of the Python package.
 
-Data from the networks above are updated at different frequencies and in some cases multiple times per day or hour. This is variable across networks based on their configuration and if precipitation sensors are experiencing rainfall.
-
-There is also a command line interface (CLI) tool available for those who prefer to work within a CLI instead of the Python package.
-
-Currently, API keys are only issued to researchers working with this dataset. There are plans to expand this audience.
+This repository is in the process of being published to The Python Package Index (PyPi) which serves as a repository of Python software. Instructions will be added here to install the package once published.
 
 <br />
 
@@ -197,6 +206,8 @@ McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curatin
 <a href="https://github.com/dharmahoy">
   <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
 </a>
+
+<br />
 
 ## Former:
 <a href="https://github.com/francesslater">
