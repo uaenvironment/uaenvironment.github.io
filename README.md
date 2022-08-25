@@ -1,6 +1,17 @@
+<br />
+<div style="text-align: center">
+
+<img src="https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/airLogo.png" witdth="250px"/>
+
+<br />
+
+[Overview](#overview) | [Projects](#projects) | [Publications](#publications) | [Students](#students)
+
+</div>
+
 # Overview
 ## Who we are
-We are the technical research applications group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](environment.arizona.edu). We are a group of published technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States, Africa, the Middle East, and places between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
+We are the technical research applications group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States, Africa, the Middle East, and places between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
 
 ## How we do it
 ### Development Process
@@ -14,7 +25,7 @@ We rely on student support and participation across all research projects. Stude
 # Projects
 
 ### **Carbon-Econ Plotter**
-Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs).
+Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](https://carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs). This map and scatter plots can be viewed at [Carbon Plotter](https://carbon-plotter.air.arizona.edu/map) website.
 
 ![Carbon Plotter Map Image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/carbonplotter.png?raw=true)
 
@@ -24,6 +35,14 @@ Methane emissions have an outsized impact on climate, and are increasingly recei
 LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIRES supports the [Desert Laboratory on Tumamoc Hill](https://tumamoc.arizona.edu/) which is an 860-acre preserve located west of downtown Tucson. AIRES has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.
 
 ![Tumamoc LoRaWAN image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/lorawan_tumamoc.jpg?raw=true)
+
+<br />
+
+
+<details>
+<summary style="font-size:22px;font-weight:bold">
+  Monsoon Game Repositories
+</summary>
 
 <br />
 
@@ -66,6 +85,25 @@ All of the questions were optional and the responses were made anonymous before 
 
 <br />
 
+</details>
+
+<br />
+
+<hr />
+
+<br />
+
+<details>
+<summary style="font-size:22px;font-weight:bold">
+  Monsoon Data Collection and Processing
+</summary>
+
+<br />
+
+The following projects are geared towards improving the availability of monsoon related meteorological data in Arizona by providing a centralized and persistent source for otherwise ephemeral observation data and demonstrating the value of that data through visualization and machine learning applications.
+
+<br />
+
 ### **Monsoon Scraper**
 This project centralizes public data from several different flood control district (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research. To gather this data we have written a number of applications that run at different intervals dependent on the different FCD network implementations. These applications run on 15 minute to 1 hour intervals. These time intervals are required in order to obtain incremental precipitation data readings which are not available if  gathering data on an hour or day interval. In addition to precipitation data, some FCD sensors also report temperature, pressure, humidity, and stream flow intensity in washes.
 
@@ -101,6 +139,12 @@ Currently, API keys are only issued to researchers working with this dataset. Th
 This repository contains code in R and Python that demonstrates how to create basic machine learning algorithms. It then takes historical weather data from the Tucson International Airport, precipitation data from our Monsoon API, and storm data from NOAA and applies these machine learning algorithms in an attempt to accurately predict flooding using historic data and a database of notable flood and rainfall events. 
 
 ![Monsoon Machine Learning](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/gradientBoosting.png?raw=true)
+
+</details>
+
+<br />
+
+<hr />
 
 <br />
 
@@ -143,5 +187,34 @@ McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curatin
 
 <br />
 
-# Students
-GitHub links / student names
+# Student Contributors
+
+## Current:
+<a href="https://github.com/rose-prendergast">
+  <img src="https://github.com/rose-prendergast.png" width="25"> Rose Predergast
+</a>
+
+<a href="https://github.com/dharmahoy">
+  <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
+</a>
+
+## Former:
+<a href="https://github.com/francesslater">
+  <img src="https://github.com/francesslater.png" width="25"> Franny Slater
+</a>
+
+<a href="https://github.com/calvinlarsen">
+  <img src="https://github.com/calvinlarsen.png" width="25"> CJ Larsen
+</a>
+
+<a href="https://github.com/gbdelgado">
+  <img src="https://github.com/gbdelgado.png" width="25"> Benni Delgado
+</a>
+
+<a href="https://github.com/mauherrerag">
+  <img src="https://github.com/mauherrerag.png" width="25"> Mau Herrera
+</a>
+
+<a href="https://www.linkedin.com/in/laurenktran">
+  <img src="https://media-exp1.licdn.com/dms/image/C5603AQFKAhA8stmqjA/profile-displayphoto-shrink_200_200/0/1574332029734?e=2147483647&v=beta&t=CV57gJAfRYsQn63pIfOLICmKkyVGngB9zx3Z7Hv5pd8" width="25"> Lauren Tran
+</a>
