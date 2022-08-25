@@ -1,4 +1,4 @@
-remote_theme: pages-themes/midnight@v0.2.0
+theme: pages-themes/midnight@v0.2.0
 
 title: Arizona Institute for Resilient Environments and Societies
 description: A showcase of our development and proof-of-concept research work at UArizona - Research
