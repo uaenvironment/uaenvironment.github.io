@@ -1,7 +1,7 @@
 <br />
 <div style="text-align: center">
 
-<img src="https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/airLogo.png" width="350px"/>
+<img src="https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/airLogo.png?raw=true" width="350px"/>
 
 <br />
 
@@ -202,9 +202,7 @@ McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curatin
 <a href="https://github.com/rose-prendergast">
   <img src="https://github.com/rose-prendergast.png" width="25"> Rose Predergast
 </a>
-
 <br />
-
 <a href="https://github.com/dharmahoy">
   <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
 </a>
@@ -215,27 +213,19 @@ McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curatin
 <a href="https://github.com/francesslater">
   <img src="https://github.com/francesslater.png" width="25"> Franny Slater
 </a>
-
 <br />
-
 <a href="https://github.com/calvinlarsen">
   <img src="https://github.com/calvinlarsen.png" width="25"> CJ Larsen
 </a>
-
 <br />
-
 <a href="https://github.com/gbdelgado">
   <img src="https://github.com/gbdelgado.png" width="25"> Benni Delgado
 </a>
-
 <br />
-
 <a href="https://github.com/mauherrerag">
   <img src="https://github.com/mauherrerag.png" width="25"> Mau Herrera
 </a>
-
 <br />
-
 <a href="https://www.linkedin.com/in/laurenktran">
   <img src="https://media-exp1.licdn.com/dms/image/C5603AQFKAhA8stmqjA/profile-displayphoto-shrink_200_200/0/1574332029734?e=2147483647&v=beta&t=CV57gJAfRYsQn63pIfOLICmKkyVGngB9zx3Z7Hv5pd8" width="25"> Lauren Tran
 </a>
