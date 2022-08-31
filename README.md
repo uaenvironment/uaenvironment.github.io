@@ -176,7 +176,7 @@ We rely on student support and participation across all research projects. Stude
 # Publications
 >Guido Z, McMahan B, Hoy D, Larsen C, Delgado B, Granillo RL III and Crimmins MA (2022) Public Engagement on Weather and Climate with a Monsoon Forecasting Game. Bulletin of the American Meteorological Society (IN REVIEW)
 
->Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. https://doi.org/10.5281/zenodo.6878318
+>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.6878318](https://doi.org/10.5281/zenodo.6878318)
 
 >McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
 
