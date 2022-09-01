@@ -146,28 +146,28 @@ We rely on student support and participation across all research projects. Stude
 >### **Regenerate Lebanon**
 >This project stemmed from a UN funding award through the Japanese Embassy to provide a mapping service of recycle centers across Lebanon. The project then branched out to include sustainable businesses and other environmentally friendly organizations.
 >
->This was a collaboration between a technology company in Lebanon called Imperium Code and other Lebanon non-profits. Our role in the overall project was to provide the mapping solution for the data set. This included mapping the points, portraying their categorizations, as well as implementing a tooltip/popup to display information about each data point. This work can be found on the [Regenerate Hub](https://regeneratehub.org) site.
+>This was a collaboration between a technology company in Lebanon called Imperium Code and other Lebanon non-profits. Our role in the overall project was to provide the mapping solution for the data set. This included mapping the points, displaying their categorizations, as well as implementing a tooltip/popup to display information about each data point. This work can be found on the [Regenerate Hub](https://regeneratehub.org) site.
 >
 ![Regenerate Lebanon Map](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/regenerate_lebanon.png?raw=true)
 
 <br />
 
 >### **Jamaica Coffee Leaf Rust**
->This was a proof-of-concept application that was built using Google's Vision AI to detect Coffee Leaf Rust which is a fungus that disseminates coffee plant crop fields. The idea was to detect this fungus via photos taken by farmers in Jamaica. We would then process those photos through the Vision AI algorithm we created to return the probability of positive coffee rust detection. In turn, this would help government officials to focus remediation efforts.
+>This was a proof-of-concept application that was built using Google's Vision AI to detect Coffee Leaf Rust which is a fungus that kills coffee plant crop fields. The idea was to detect this fungus via photos taken by farmers in Jamaica. We would then process those photos through the Vision AI algorithm we created to return the probability of positive coffee rust detection. In turn, this would help government officials to focus remediation efforts.
 >
 >We developed this proof-of-concept model using plant life located in UArizona's ENR2 building. We trained this model by feeding it various images of different plant life to show how the image analysis would function and the different probability results.
 
 <br />
 
 >### **Project Visualizations**
->This project was developed for the [Agnese Nelms Haury Program in Environment and Social Justice](https://haury.arizona.edu) proposal submission process for research funding. The idea was to use models and algorithms in Natural Language Processing (NLP) to find similarities or potential collaboration opportunities across proposal submission abstracts. We incorporated a number of models/algorithms in this process to determine which is best suited for the particular set of research themes.
+>This project was developed for the [Agnese Nelms Haury Program in Environment and Social Justice](https://haury.arizona.edu) proposal submission process for research funding. The idea was to use models and algorithms in Natural Language Processing (NLP) to find similarities or potential collaboration opportunities across abstract and proposal submissions. We incorporated a number of models/algorithms in this process to determine which is best suited for the particular set of research themes.
 >
 ![Project Visualization Graphic](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/proj_visualizer.png?raw=true)
 
 <br />
 
 >### **Zambia Invasive Species Tracking**
->This invasive species tracking application was designed to plot the detection of the Fall Army Worm (FAW) across farms in Zambia. The result of which would help governmental agriculture decision makers in focussing remediation efforts of FAW. To achieve this we worked with data aggregated via analog phone text messaging that was collected by an company in Africa called TextIt. We were not able to successfully work with their API but we were able to export data in a format that allowed us to store responses in a relational way to more easily work with this data. This data was gathered every 2 weeks during their grow season and plotted via the text campaign date. More information about this project can be found on our [FAW environment](http://faw.environment.arizona.edu) site.
+>This invasive species tracking application was designed to plot the detection of the Fall Army Worm (FAW) across maize crops in Zambia. The result of this tracking helped governmental agriculture decision makers in focussing remediation efforts of FAW. To achieve this we worked with data aggregated via analog phone text messaging that was collected by an company in Africa called TextIt. We export that data in a format that allowed us to store responses in a relational way to more easily pull data into our front-end plotter. This data was gathered every 2 weeks during their grow season and plotted via the text campaign date. This application was architected in a way that would allow us to track other species in future research. More information about this project can be found on our [FAW environment](http://faw.environment.arizona.edu) site.
 >
 ![Zambia FAW Distribution](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/zambia_faw.png?raw=true)
 
