@@ -14,14 +14,33 @@
 # <b>Overview</b>
 
 ## Who we are
-We are the technical research applications group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](https://environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
+We are the technical research applications development group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](https://environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
+
+The research applications group is led by [Rey Granillo](https://github.com/reyg3), Director of Technology and Research Computing, and [Leland Boeman](https://github.com/lboeman), Research & Development Software Engineer.
 
 ## How we do it
 ### Development Process
-By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality collaborations for the life of research projects. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.
+By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.
 
 ### Student Support
 We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIRES has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
+
+Our current student cohort includes:
+- [Dharma Hoy](https://github.com/dharmahoy)
+  - Major: Statistics and Data Science. Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
+
+- [Rose Predergast](https://github.com/rose-predergast)
+  - Major: Cyber Operations
+  - Minor: Game Development & Design
+
+### Research Collaborators
+In addition to our core research applications development team, we've had a number of collaborators across AIRES programs and affiliated groups across the University of Arizona. 
+| | | |
+| --- | --- | --- |
+| <a href="https://environment.arizona.edu/person/ben-mcmahan"><img src="https://github.com/ben-mcmahan.png" width="25"> Ben McMahan </a> (AIRES, School of Anthropology) | <a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins"><img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" width="25"> Mike Crimmins </a> (CALS - Environmental Sciences) | <a href="https://environment.arizona.edu/person/zack-guido"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/ZackGuido.jpg" width="25"> Zack Guido </a> (AIRES International Programs) |
+| <a href="https://geography.arizona.edu/people/tom-evans"><img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" width="25"> Tom Evans </a> (SBS - School of Geography and Development) | <a href="https://environment.arizona.edu/person/riley-duren"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/RileyDuren.png" width="25"> Riley Duren </a> (CEO Carbon Mapper) | <a href="https://eller.arizona.edu/people/wesley-howden"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/eller-Wesley-Howden.jpg" width="25"> Wes Howden </a> (Eller College of Management) |
+| <a href="https://eller.arizona.edu/people/konan-hara"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/Hara%20Crop.jpg" width="25"> Konan Hara </a> (Eller Doctoral Student Economics) | <a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="https://anthropology.arizona.edu/sites/anthropology.arizona.edu/files/styles/large/public/images/people/Rosenbaum%2CRachel.jpg" width="25"> Rachel Rosenbaum </a> (Anthropology PhD Candidate) | <a href="https://environment.arizona.edu/person/nancy-petersen"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/NancyP.jpg" width="25"> Nancy Petersen </a> (AIRES Haury Program) |
+| | |
 
 <br />
 
@@ -182,6 +201,15 @@ We rely on student support and participation across all research projects. Stude
 
 <br />
 
+# Works in Progress
+> Precipitation data organization for Machine Learning processing (Dharma Hoy, Rey Granillo, Ben McMahan)
+
+> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Predergast, Dharma Hoy, Mike Crimmins)
+
+> Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)
+
+<br />
+
 # Student Contributors
 
 ### Current:
@@ -198,6 +226,10 @@ We rely on student support and participation across all research projects. Stude
 
 ### Former:
 
+<a href="https://github.com/shyambhavi3">
+  <img src="https://github.com/shyambhavi3.png" width="25"> Shyambhavi Shyambhavi
+</a>
+<br />
 <a href="https://github.com/francesslater">
   <img src="https://github.com/francesslater.png" width="25"> Franny Slater
 </a>
