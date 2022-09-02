@@ -27,7 +27,8 @@ We rely on student support and participation across all research projects. Stude
 
 Our current student cohort includes:
 - [Dharma Hoy](https://github.com/dharmahoy)
-  - Major: Statistics and Data Science. Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
+  - Major: Statistics and Data Science.
+  - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
 
 - [Rose Predergast](https://github.com/rose-predergast)
   - Major: Cyber Operations
@@ -40,7 +41,7 @@ In addition to our core research applications development team, we've had a numb
 | <a href="https://environment.arizona.edu/person/ben-mcmahan"><img src="https://github.com/ben-mcmahan.png" width="25"> Ben McMahan </a> (AIRES, School of Anthropology) | <a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins"><img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" width="25"> Mike Crimmins </a> (CALS - Environmental Sciences) | <a href="https://environment.arizona.edu/person/zack-guido"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/ZackGuido.jpg" width="25"> Zack Guido </a> (AIRES International Programs) |
 | <a href="https://geography.arizona.edu/people/tom-evans"><img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" width="25"> Tom Evans </a> (SBS - School of Geography and Development) | <a href="https://environment.arizona.edu/person/riley-duren"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/RileyDuren.png" width="25"> Riley Duren </a> (CEO Carbon Mapper) | <a href="https://eller.arizona.edu/people/wesley-howden"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/eller-Wesley-Howden.jpg" width="25"> Wes Howden </a> (Eller College of Management) |
 | <a href="https://eller.arizona.edu/people/konan-hara"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/Hara%20Crop.jpg" width="25"> Konan Hara </a> (Eller Doctoral Student Economics) | <a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="https://anthropology.arizona.edu/sites/anthropology.arizona.edu/files/styles/large/public/images/people/Rosenbaum%2CRachel.jpg" width="25"> Rachel Rosenbaum </a> (Anthropology PhD Candidate) | <a href="https://environment.arizona.edu/person/nancy-petersen"><img src="https://environment.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/NancyP.jpg" width="25"> Nancy Petersen </a> (AIRES Haury Program) |
-| | |
+||||
 
 <br />
 
