@@ -30,7 +30,7 @@ Our current student cohort includes:
   - Major: Statistics and Data Science.
   - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
 
-- [Rose Predergast](https://github.com/rose-predergast)
+- [Rose Prendergast](https://github.com/rose-prendergast)
   - Major: Cyber Operations
   - Minor: Game Development & Design
 
@@ -223,21 +223,21 @@ In addition to our core research applications development team, we've had a numb
 
 <br />
 
-# Publications
->Guido Z, McMahan B, Hoy D, Larsen C, Delgado B, Granillo RL III and Crimmins MA (2022) Public Engagement on Weather and Climate with a Monsoon Forecasting Game. Bulletin of the American Meteorological Society (IN REVIEW)
+># Publications
+>>Guido Z, McMahan B, Hoy D, Larsen C, Delgado B, Granillo RL III and Crimmins MA (2022) Public Engagement on Weather and Climate with a Monsoon Forecasting Game. Bulletin of the American Meteorological Society (IN REVIEW)
 
->Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.6878318](https://doi.org/10.5281/zenodo.6878318)
+>>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.6878318](https://doi.org/10.5281/zenodo.6878318)
 
->McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
+>>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
 
 <br />
 
-# Works in Progress
-> Precipitation data organization for Machine Learning processing (Dharma Hoy, Rey Granillo, Ben McMahan)
+># Works in Progress
+>> Precipitation data organization for Machine Learning processing (Dharma Hoy, Rey Granillo, Ben McMahan)
 
-> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Predergast, Dharma Hoy, Mike Crimmins)
+>> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)
 
-> Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)
+>> Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)
 
 <br />
 
@@ -246,7 +246,7 @@ In addition to our core research applications development team, we've had a numb
 ### Current:
 
 <a href="https://github.com/rose-prendergast">
-  <img src="https://github.com/rose-prendergast.png" width="25"> Rose Predergast
+  <img src="https://github.com/rose-prendergast.png" width="25"> Rose Prendergast
 </a>
 <br />
 <a href="https://github.com/dharmahoy">
