@@ -13,6 +13,8 @@
 
 # <b>Overview</b>
 
+<br />
+
 ## Who we are
 We are the technical research applications development group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](https://environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
 
@@ -76,8 +78,6 @@ In addition to our core research applications development team, we've had a numb
 <br />
 
 ### Proposals
-
-<br />
 
 ><b>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest</b>
 >
@@ -148,6 +148,8 @@ In addition to our core research applications development team, we've had a numb
 <br />
 
 # <b>Projects</b>
+
+<br />
 
 >### **Carbon-Econ Plotter**
 >Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](https://carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs). This map and scatter plots can be viewed at [Carbon Plotter](https://carbon-plotter.air.arizona.edu/map) website.
