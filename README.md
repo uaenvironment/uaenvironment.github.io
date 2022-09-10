@@ -8,7 +8,7 @@
 
 <br />
 
-[Collaborators](#research-collaborators) | [Proposals](#proposals) | [Projects](#projects) | [Publications](#publications) | [Students](#students)
+[Collaborators](#research-collaborators) | [Proposals](#proposals) | [Projects](#projects) | [Publications](#publications) | [Students](#student-contributors)
 
 <br />
 
@@ -119,8 +119,7 @@ In addition to our core research applications development team, we've had a numb
 >Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz
 >
 >PI: Ben McMahan & Rey Granillo
-<br />
-
+><br />
 >$24,385
 
 <br />
