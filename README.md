@@ -77,58 +77,73 @@ In addition to our core research applications development team, we've had a numb
 
 ### Proposals
 
-<table>
-  <tr>
-    <td>Title</td>
-    <td>Budget</td>
-    <td>PI</td>
-    <td>Co-PI</td>
-    <td>Scope</td>
-  </tr>
-  <tr>
-    <td>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest.</td>
-    <td>$144,646</td>
-    <td>Ben McMahan & Rey Granillo</td>
-    <td></td>
-    <td>Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science</td>
-  </tr>
-  <tr>
-    <td>Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education</td>
-    <td>$40,554</td>
-    <td>Ben McMahan</td>
-    <td>Mike Crimmins</td>
-    <td>Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals</td>
-  </tr>
-  <tr>
-    <td>Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services</td>
-    <td>$638,224</td>
-    <td>Ben McMahan</td>
-    <td>Rey Granillo, Mike Crimmins, Will Holmgren</td>
-    <td>Heavy involvement on data aggregation and UX/visualization development.  (why Rey was PI, as learning lab was heavily implicated in our proposed capacity)</td>
-  </tr>
-  <tr>
-    <td>Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models</td>
-    <td>$24,385</td>
-    <td>Ben McMahan & Rey Granillo</td>
-    <td></td>
-    <td>Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz</td>
-  </tr>
-  <tr>
-    <td>Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information</td>
-    <td>$365,117</td>
-    <td>Ben McMahan</td>
-    <td>Will Holmgren, Mike Crimmins</td>
-    <td>Included development of stakeholder focused data viz and tools - would have used the learning lab to help with project work and give students experience</td>
-  </tr>
-  <tr>
-    <td>Innovative Visualization & Analysis Tools for the North American Monsoon –
-Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support</td>
-    <td>$25,000</td>
-    <td>Ben McMahan</td>
-    <td>Will Holmgren, Mike Crimmins</td>
-    <td>Initial foray into data aggregation.</td>
-  </tr>
-</table>
+<br />
+
+><b>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest</b>
+>
+>Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science
+>
+>PI: Ben McMahan & Rey Granillo
+><br />
+>$144,646
+
+<br />
+
+><b>Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education</b>
+>
+>Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals
+>
+>PI: Ben McMahan
+><br />
+>Co-PI: Mike Crimmins
+><br />
+>$40,554
+
+<br />
+
+><b>Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services</b>
+>    
+>Heavy involvement on data aggregation and UX/visualization development.  (why Rey was PI, as learning lab was heavily implicated in our proposed capacity)
+>
+>PI: Ben McMahan
+><br />
+>Co-PI: Rey Granillo, Mike Crimmins, Will Holmgren
+><br />
+>$638,224
+
+<br />
+
+><b>Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models</b>
+>
+>Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz
+>
+>PI: Ben McMahan & Rey Granillo
+<br />
+>$24,385
+
+<br />
+
+><b>Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information</b>
+>
+>Included development of stakeholder focused data viz and tools - would have used the learning lab to help with project work and give students experience
+>    
+>PI: Ben McMahan
+><br />
+>Co-PI: Will Holmgren, Mike Crimmins
+><br />
+>$365,117
+  
+<br />
+
+><b>Innovative Visualization & Analysis Tools for the North American Monsoon - Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support</b>
+>
+>Initial foray into data aggregation.
+>    
+>PI: Ben McMahan
+><br />
+>Co-PI: Will Holmgren, Mike Crimmins
+><br />
+>$25,000
 
 <br />
 
@@ -289,7 +304,7 @@ Connecting Citizen Science Data and Observations for Research, Policy, and Decis
 >
 ><br />
 >
-># Works in Progress
+>### Works in Progress
 >> Precipitation data organization for Machine Learning processing (Dharma Hoy, Rey Granillo, Ben McMahan)
 >
 >> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)
