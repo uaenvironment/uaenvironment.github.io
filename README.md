@@ -8,8 +8,9 @@
 
 <br />
 
-[Overview](#overview) | [Projects](#projects) | [Publications](#publications) | [Students](#students)
+[Collaborators](#research-collaborators) | [Proposals](#proposals) | [Projects](#projects) | [Publications](#publications) | [Students](#students)
 
+<br />
 
 # <b>Overview</b>
 
