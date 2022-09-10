@@ -120,6 +120,7 @@ In addition to our core research applications development team, we've had a numb
 >
 >PI: Ben McMahan & Rey Granillo
 <br />
+
 >$24,385
 
 <br />
@@ -149,8 +150,6 @@ In addition to our core research applications development team, we've had a numb
 <br />
 
 # <b>Projects</b>
-
-<br />
 
 >### **Carbon-Econ Plotter**
 >Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](https://carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs). This map and scatter plots can be viewed at [Carbon Plotter](https://carbon-plotter.air.arizona.edu/map) website.
