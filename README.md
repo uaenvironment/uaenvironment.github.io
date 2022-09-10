@@ -79,68 +79,54 @@ In addition to our core research applications development team, we've had a numb
 
 <table>
   <tr>
-    <td>Funder</td>
     <td>Title</td>
     <td>Budget</td>
     <td>PI</td>
     <td>Co-PI</td>
     <td>Scope</td>
-    <td>Result</td>
   </tr>
   <tr>
-    <td>UA Provost Investment Fund (Spring 2022)</td>
     <td>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest.</td>
     <td>$144,646</td>
     <td>Ben McMahan & Rey Granillo</td>
     <td></td>
     <td>Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science</td>
-    <td>Scored well and was very well received but not recommended for funding)</td>
   </tr>
   <tr>
-    <td>AIRES/TRIF Resilience Grants (Fall 2021)</td>
     <td>Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education</td>
     <td>$40,554</td>
     <td>Ben McMahan</td>
     <td>Mike Crimmins</td>
     <td>Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals</td>
-    <td>Scored fairly well, but lacked a clear research question (by design it was a more applied project with a deliverable not a research question - which was literally in the call for proposals, but the review panel was mostly tenured faculty and tended to score research question based proposals higher)</td>
   </tr>
   <tr>
-    <td>FY2022 Weather Program Office Research Programs</td>
     <td>Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services</td>
     <td>$638,224</td>
     <td>Ben McMahan</td>
     <td>Rey Granillo, Mike Crimmins, Will Holmgren</td>
     <td>Heavy involvement on data aggregation and UX/visualization development.  (why Rey was PI, as learning lab was heavily implicated in our proposed capacity)</td>
-    <td>Scored well and was well received.  Scientific review appears to have gone well but was not recommended for funding by institutional review</td>
   </tr>
   <tr>
-    <td>Tech Launch Arizona</td>
     <td>Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models</td>
     <td>$24,385</td>
     <td>Ben McMahan & Rey Granillo</td>
     <td></td>
     <td>Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz</td>
-    <td>Odd fit for this proposal as we were trying to develop student training capacity not an invention (what TLA is focused on)</td>
   </tr>
   <tr>
-    <td>FY2021 Weather Program Office SBES</td>
     <td>Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information</td>
     <td>$365,117</td>
     <td>Ben McMahan</td>
     <td>Will Holmgren, Mike Crimmins</td>
     <td>Included development of stakeholder focused data viz and tools - would have used the learning lab to help with project work and give students experience</td>
-    <td>Scored ok.  We were proposing to WPO to improve a mechanism that WPO is entrenched in using.  This was well received by some and others were critical of the approach.</td>
   </tr>
   <tr>
-    <td>UA VPR Innovation Fund</td>
     <td>Innovative Visualization & Analysis Tools for the North American Monsoon –
 Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support</td>
     <td>$25,000</td>
     <td>Ben McMahan</td>
     <td>Will Holmgren, Mike Crimmins</td>
     <td>Initial foray into data aggregation.</td>
-    <td>Funded</td>
   </tr>
 </table>
 
