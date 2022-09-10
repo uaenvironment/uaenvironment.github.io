@@ -14,12 +14,12 @@
 
 # <b>Overview</b>
 
-<br />
-
 ## Who we are
 We are the technical research applications development group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](https://environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
 
 The research applications group is led by [Rey Granillo](https://github.com/reyg3), Director of Technology and Research Computing, and [Leland Boeman](https://github.com/lboeman), Research & Development Software Engineer.
+
+<br />
 
 ## How we do it
 ### Development Process
@@ -78,7 +78,7 @@ In addition to our core research applications development team, we've had a numb
 
 <br />
 
-### Proposals
+## Proposals
 
 ><b>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest</b>
 >
