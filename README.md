@@ -88,8 +88,6 @@ In addition to our core research applications development team, we've had a numb
 ><br />
 >$144,646
 
-<br />
-
 ><b>Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education</b>
 >
 >Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals
@@ -99,8 +97,6 @@ In addition to our core research applications development team, we've had a numb
 >Co-PI: Mike Crimmins
 ><br />
 >$40,554
-
-<br />
 
 ><b>Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services</b>
 >    
@@ -112,8 +108,6 @@ In addition to our core research applications development team, we've had a numb
 ><br />
 >$638,224
 
-<br />
-
 ><b>Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models</b>
 >
 >Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz
@@ -121,8 +115,6 @@ In addition to our core research applications development team, we've had a numb
 >PI: Ben McMahan & Rey Granillo
 ><br />
 >$24,385
-
-<br />
 
 ><b>Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information</b>
 >
@@ -133,8 +125,14 @@ In addition to our core research applications development team, we've had a numb
 >Co-PI: Will Holmgren, Mike Crimmins
 ><br />
 >$365,117
-  
-<br />
+
+><b>Public Engagement in Southwest Monsoon Forecasting: A Prototype Game to Build Climate Awareness and to Evaluate Community Forecast Skill</b>
+>
+>PI: Z. Guido
+><br />
+>Co-PI: McMahon, B., Crimmins, C., and Granillo, R.
+><br />
+>$13,958
 
 ><b>Innovative Visualization & Analysis Tools for the North American Monsoon - Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support</b>
 >
