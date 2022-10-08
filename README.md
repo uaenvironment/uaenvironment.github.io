@@ -304,7 +304,7 @@ In addition to our core research applications development team, we've had a numb
 ><br />
 >
 >### Works in Progress
->> Precipitation data organization for Machine Learning processing (Dharma Hoy, Rey Granillo, Ben McMahan)
+>> Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. (Dharma Hoy, Rey Granillo, Leland Boeman, Ben McMahan, Mike Crimmins)
 >
 >> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)
 >
