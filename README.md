@@ -80,6 +80,18 @@ In addition to our core research applications development team, we've had a numb
 
 ## Proposals
 
+><b>Integrating Data Science and ML/AI into Stakeholder Informed Assessments of Fire Weather Tools</b>
+>
+>Study/Project Aim(s) IDENTIFY fire weather forecast priorities and EXPAND the fire weather stakeholder
+network, DEVELOP experimental fire weather analysis and visualization prototypes, based on insights from data science, Ux testing, and ML/AI, CO-PRODUCE relevant, salient, and credible fire weather information collaboration with fire managers that ENHANCE fire weather impact decision support services (a NOAA/Npriority), and DEVELOP strategies to expand these products at scale for use by wider networks of fire
+managers, and EXPLORE opportunities for aggregation, management, visualization, and analysis of fire rand weather data
+>
+>PI: Rey Granillo
+><br />
+>Co-Applicants: Ben McMahan, Leland Boeman
+><br />
+>$304,609
+
 ><b>High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest</b>
 >
 >Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science
@@ -295,17 +307,17 @@ In addition to our core research applications development team, we've had a numb
 <br />
 
 # Publications
->>Guido Z, McMahan B, Hoy D, Larsen C, Delgado B, Granillo RL III and Crimmins MA (2022) Public Engagement on Weather and Climate with a Monsoon Forecasting Game. Bulletin of the American Meteorological Society (IN REVIEW)
+>>Dharma H, Granillo RL III, Boeman L, McMahan B, Crimmins MA (2022) Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate (IN REVIEW)
 >
->>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. [https://doi.org/10.5281/zenodo.6878318](https://doi.org/10.5281/zenodo.6878318)
+>>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml>
+>
+>>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. <https://doi.org/10.5281/zenodo.6878318>
 >
 >>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
 >
 ><br />
 >
 >### Works in Progress
->> Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. (Dharma Hoy, Rey Granillo, Leland Boeman, Ben McMahan, Mike Crimmins)
->
 >> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)
 >
 >> Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)
