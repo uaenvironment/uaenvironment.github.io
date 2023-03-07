@@ -15,9 +15,9 @@
 # <b>Overview</b>
 
 ## Who we are
-We are the technical research applications development group found within the [Arizona Institute for Resilient Environments and Societies (AIRES)](https://environment.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers, Institutes and Programs](https://environment.arizona.edu/our-institute/centers-institutes-programs) found within AIRES. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIRES explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
+We are the Technical Research Applications Development group found within the [Arizona Institute for Resilience (AIR)](https://air.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers and Programs](https://air.arizona.edu/centers-programs) found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
 
-The research applications group is led by [Rey Granillo](https://github.com/reyg3), Director of Technology and Research Computing, and [Leland Boeman](https://github.com/lboeman), Research & Development Software Engineer.
+The research applications group is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research Computing, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
 
 <br />
 
@@ -26,31 +26,27 @@ The research applications group is led by [Rey Granillo](https://github.com/reyg
 By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.
 
 ### Student Support
-We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIRES has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
+We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
 
 Our current student cohort includes:
 - [Dharma Hoy](https://github.com/dharmahoy)
   - Major: Statistics and Data Science.
   - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
 
-- [Rose Prendergast](https://github.com/rose-prendergast)
-  - Major: Cyber Operations
-  - Minor: Game Development & Design
-
 ### Research Collaborators
-In addition to our core research applications development team, we've had a number of collaborators across AIRES programs and affiliated groups across the University of Arizona. 
+In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
 
 <table>
   <tr>
     <td><a href="https://environment.arizona.edu/person/ben-mcmahan"><img src="https://github.com/ben-mcmahan.png" width="25"> Ben McMahan </a>
     <br />
-    AIRES, School of Anthropology</td>
+    AIR, School of Anthropology</td>
     <td><a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins"><img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" width="25"> Mike Crimmins </a>
     <br />
     CALS - Environmental Sciences</td>
     <td><a href="https://environment.arizona.edu/person/zack-guido"><img src="https://environment.arizona.edu/sites/environment.arizona.edu/files/styles/uaqs_medium/public/images/people/ZackGuido.jpg" width="25"> Zack Guido </a>
     <br />
-    AIRES International Programs</td>
+    AIR International Programs</td>
   </tr>
   <tr>
     <td><a href="https://geography.arizona.edu/people/tom-evans"><img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" width="25"> Tom Evans </a>
@@ -72,7 +68,7 @@ In addition to our core research applications development team, we've had a numb
     PhD Candidate School of Anthropology</td>
     <td><a href="https://environment.arizona.edu/person/nancy-petersen"><img src="https://environment.arizona.edu/sites/environment.arizona.edu/files/styles/uaqs_medium/public/images/people/NancyP.jpg" width="25"> Nancy Petersen </a>
     <br />
-    AIRES Haury Program</td>
+    AIR Haury Program</td>
   </tr>
 </table>
 
@@ -168,7 +164,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <br />
 
 >### **LoRaWAN Remote Sensing Network**
->LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIRES supports the [Desert Laboratory on Tumamoc Hill](https://tumamoc.arizona.edu/) which is an 860-acre preserve located west of downtown Tucson. AIRES has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.
+>LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIR supports the [Desert Laboratory on Tumamoc Hill](https://tumamoc.arizona.edu/) which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.
 >
 ![Tumamoc LoRaWAN image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/lorawan_tumamoc.jpg?raw=true)
 
@@ -176,7 +172,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 
 >## **Monsoon Game Repositories**
->The following projects all pertain to various aspects of the AIRES [Monsoon Fantasy Game](https://monsoonfantasy.arizona.edu). These repositories include the detailed scoring method and a post game analysis.
+>The following projects all pertain to various aspects of the AIR [Monsoon Fantasy Game](https://monsoonfantasy.arizona.edu). These repositories include the detailed scoring method and a post game analysis.
 >
 >>### **Monsoon Fantasy Game**
 >>In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso. Points are awarded each month depending on the accuracy of the estimate compared to the actual observed rainfall. The goal is to accumulate the most points over the July, August, September period.
@@ -328,10 +324,6 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 ### Current:
 
-<a href="https://github.com/rose-prendergast">
-  <img src="https://github.com/rose-prendergast.png" width="25"> Rose Prendergast
-</a>
-<br />
 <a href="https://github.com/dharmahoy">
   <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
 </a>
@@ -340,6 +332,10 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 ### Former:
 
+<a href="https://github.com/rose-prendergast">
+  <img src="https://github.com/rose-prendergast.png" width="25"> Rose Prendergast
+</a>
+<br />
 <a href="https://github.com/shyambhavi3">
   <img src="https://github.com/shyambhavi3.png" width="25"> Shyambhavi Shyambhavi
 </a>
