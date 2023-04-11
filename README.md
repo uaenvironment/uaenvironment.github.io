@@ -35,7 +35,6 @@ Our current student cohort includes:
 
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
   - Major: Statistics and Data Science
-  - Minors: 
 
 ### Research Collaborators
 In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
