@@ -30,8 +30,11 @@ We rely on student support and participation across all research projects. Stude
 
 Our current student cohort includes:
 - [Dharma Hoy](https://github.com/dharmahoy)
-  - Major: Statistics and Data Science.
+  - Major: Statistics and Data Science
   - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
+
+- [Roger Palmenberg](https://github.com/rogerpalmenberg)
+  - Major: Statistics and Data Science
 
 ### Research Collaborators
 In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
