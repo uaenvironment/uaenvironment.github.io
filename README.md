@@ -331,6 +331,10 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
   <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
 </a>
 
+<a href="https://github.com/rogerpalmenberg">
+  <img src="https://github.com/rogerpalmenberg.png" width="25"> Roger Palmenberg
+</a> 
+
 ---
 
 ### Former:
