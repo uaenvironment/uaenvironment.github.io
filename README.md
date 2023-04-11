@@ -34,7 +34,7 @@ Our current student cohort includes:
   - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
 
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
-  - Major: 
+  - Major: Statistics and Data Science
   - Minors: 
 
 ### Research Collaborators
