@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://cdn.digital.arizona.edu/lib/az-icons/main/az-icons-styles.css">
     <!-- Arizona Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/main/css/arizona-bootstrap.min.css">
+    <!-- Material Icons CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
     <title>AIR Technical Research Applications Development | The bridge between Computer Science and Interdisciplinary research</title>
   </head>
   <body>
@@ -27,11 +29,11 @@
     <!-- Logo Header -->
     <div class="container">
     <div class="row">
-        <div class="col col-12 col-md-6 mb-4">
-            <img class="img-fluid" style="max-width: 400px;" src="images/airLogo.png">
+        <div class="col col-12 col-md-4 mb-4 mt-3">
+            <a href="https://air.arizona.edu"><img class="img-fluid" src="images/airLogo-dark.png"></a>
         </div>
-        <div class="col col-12 col-md-6 mb-4 text-center text-md-right">
-            <a class="btn btn-red my-4">View on Github</a>
+        <div class="col col-12 col-md-8 mb-4 text-center text-md-right">
+            <a class="btn btn-red my-4" href="https://github.com/uaenvironment/uaenvironment.github.io">View on Github</a>
         </div>
     </div>
     <div class="row">
@@ -49,8 +51,8 @@
                 Projects
               </button>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <a class="dropdown-item" href="#">Carbon-Econ Plotter</a>
-                <a class="dropdown-item" href="#">LoRaWAN Remote Sensing Network</a>
+                <a class="dropdown-item" href="#carbon-econ-plotter">Carbon-Econ Plotter</a>
+                <a class="dropdown-item" href="#lorawan">LoRaWAN Remote Sensing Network</a>
                 <a class="dropdown-item" href="#">Monsoon Game</a>
                 <a class="dropdown-item" href="#">Monsoon Data Collection and Processing</a>
                 <a class="dropdown-item" href="#">Regenerate Lebanon</a>
@@ -60,10 +62,10 @@
               </div>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Publications</a>
+              <a class="nav-link" href="#publications">Publications</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Students</a>
+              <a class="nav-link" href="#students">Students</a>
             </li>
           </ul>
       </nav>
@@ -73,55 +75,322 @@
     <main role="main">
       <div class="container">
         <div class="row">
-          <!-- Heading -->
-          <div class="col-12 text-center">
-            <h1 class="mb-2">AIR Technical Research Applications Development</h1>
-            <p class="lead">The bridge between Computer Science and Interdisciplinary research</p>
-          </div>
-          <!-- Overview Section (not linked in menu) -->
-          <div class="col-12">
-            <h2 class="h1">Overview</h2>
-            <h3>Who we are</h3>
-            <p>We are the Technical Research Applications Development group found within the Arizona Institute for Resilience (AIR). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the Centers and Programs found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.</p>
-            <p>The research applications group is led by Rey Granillo Director of Technology and Research Computing, Leland Boeman Research & Development Software Engineer, and Thomas Weiss Research & Development Systems Engineer.</p>
-            <h3>How we do it</h3>
-            <h4>Development Process</h4>
-            <p>By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.</p>
-            <h4>Student Support</h4>
-            <p>We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.</p>
-            <p>Our current student cohort includes:</p>
-            <ul>
-                <li>Dharma Hoy
-                    <ul>
-                        <li>
-                            Major: Statistics and Data Science
-                        </li>
-                        <li>
-                            Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
-                        </li>
-                    </ul>
+            <!-- Heading -->
+            <div class="col-12 text-center">
+              <h1 class="mb-2">AIR Technical Research Applications Development</h1>
+              <p class="lead">The bridge between Computer Science and Interdisciplinary research</p>
+            </div>
+            <!-- Overview Section (not linked in menu) -->
+            <div class="col-12">
+              <h2 class="h1">Overview</h2>
+              <h3>Who we are</h3>
+              <p>We are the Technical Research Applications Development group found within the <a href="https://air.arizona.edu">Arizona Institute for Resilience</a> (AIR). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the <a href="https://air.arizona.edu/centers-programs">Centers and Programs</a> found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.</p>
+              <p>The research applications group is led by <a href="https://github.com/reyg3">Rey Granillo</a> Director of Technology and Research Computing, <a href="https://github.com/lboeman">Leland Boeman</a> Research & Development Software Engineer, and <a href="https://github.com/tweissaz">Thomas Weiss</a> Research & Development Systems Engineer.</p>
+              <h3>How we do it</h3>
+              <h4>Development Process</h4>
+              <p>By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.</p>
+              <h4>Student Support</h4>
+              <p>We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.</p>
+              <p>Our current student cohort includes:</p>
+              <ul>
+                <li><a href="https://github.com/dharmahoy">Dharma Hoy</a>
+                  <ul>
+                    <li>
+                      Major: Statistics and Data Science
+                    </li>
+                    <li>
+                      Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
+                    </li>
+                  </ul>
                 </li>
-            </ul>
-        </div>
+                <li><a href="https://github.com/lilymcmullen">Lily McMullen</a>
+                  <ul>
+                    <li>
+                      Major: Natural Resources (Conservation Biology)
+                    </li>
+                    <li>
+                      Minor: Computer Science
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="https://github.com/rogerpalmenberg">Roger Palmenberg</a>
+                  <ul>
+                    <li>
+                      Major: Statistics and Data Science
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+          </div>
         </div>
         <!-- Collaborators Section -->
         <div class="row">
+          <div class="col-12">
             <h2 id="collaborators">Research Collaborators</h2>
+            <p>In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona.</p>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/ben-mcmahan.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Ben McMahan headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://climas.arizona.edu/about/people/ben-mcmahan">Ben McMahan</a></span><br>AIR, School of Anthropology</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Mike Crimmins headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins">Mike Crimmins</a></span><br>CALS - Environmental Sciences</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/ZackGuido.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Zack Guido headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/zack-guido">Zack Guido</a></span><br>AIR International Programs</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Tom Evans headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://geography.arizona.edu/people/tom-evans">Tom Evans</a></span><br>SBS - School of Geography and Development</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/RileyDuren.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Riley Duren headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/riley-duren">Riley Duren</a></span><br>CEO Carbon Mapper</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/eller-Wesley-Howden.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Wes Howden headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://eller.arizona.edu/people/wesley-howden">Wes Howden</a></span><br>Eller College of Management</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/Hara%20Crop.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Konan Hara headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://eller.arizona.edu/people/konan-hara">Konan Hara</a></span><br>Eller Doctoral Student Economics</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://anthropology.arizona.edu/sites/anthropology.arizona.edu/files/styles/large/public/images/people/Rosenbaum%2CRachel.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Rachel Rosenbaum headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum">Rachel Rosenbaum</a></span><br>PhD Candidate School of Anthropology</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Nancy Petersen headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/nancy-petersen">Nancy Petersen</a></span><br>AIR Haury Program</p>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
         <!-- Proposals Section -->
         <div class="row">
+          <div class="col-12">
             <h2 id="proposals">Proposals</h2>
+            <div class="accordion" id="proposal_accordion">
+              <div class="card">
+                <div class="card-header" id="proposal_heading_1">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_1" aria-expanded="false" aria-controls="proposal_collapse_1">
+                    Integrating Data Science and ML/AI into Stakeholder Informed Assessments of Fire Weather Tools
+                  </button>
+                </div>
+                <div id="proposal_collapse_1" class="collapse" aria-labelledby="proposal_heading_1" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Study/Project Aim(s) IDENTIFY fire weather forecast priorities and EXPAND the fire weather stakeholder network, DEVELOP experimental fire weather analysis and visualization prototypes, based on insights from data science, Ux testing, and ML/AI, CO-PRODUCE relevant, salient, and credible fire weather information collaboration with fire managers that ENHANCE fire weather impact decision support services (a NOAA/Npriority), and DEVELOP strategies to expand these products at scale for use by wider networks of fire managers, and EXPLORE opportunities for aggregation, management, visualization, and analysis of fire rand weather data</p>
+                    <p>PI: Rey Granillo<br>
+                    Co-Applicants: Ben McMahan, Leland Boeman<br>
+                    $304,609</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_2">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_2" aria-expanded="false" aria-controls="proposal_collapse_2">
+                    High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest
+                  </button>
+                </div>
+                <div id="proposal_collapse_2" class="collapse" aria-labelledby="proposal_heading_2" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science</p>
+                    <p>PI: Ben McMahan & Rey Granillo<br>
+                      $144,646</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_3">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_3" aria-expanded="false" aria-controls="proposal_collapse_3">
+                    Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education
+                  </button>
+                </div>
+                <div id="proposal_collapse_3" class="collapse" aria-labelledby="proposal_heading_3" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Mike Crimmins<br>
+                      $40,554</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_4">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_4" aria-expanded="false" aria-controls="proposal_collapse_4">
+                    Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services
+                  </button>
+                </div>
+                <div id="proposal_collapse_4" class="collapse" aria-labelledby="proposal_heading_4" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Heavy involvement on data aggregation and UX/visualization development. (why Rey was PI, as learning lab was heavily implicated in our proposed capacity)</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Rey Granillo, Mike Crimmins, Will Holmgren<br>
+                      $638,224</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_5">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_5" aria-expanded="false" aria-controls="proposal_collapse_5">
+                    Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models
+                  </button>
+                </div>
+                <div id="proposal_collapse_5" class="collapse" aria-labelledby="proposal_heading_5" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz</p>
+                    <p>PI: Ben McMahan & Rey Granillo<br>
+                      $24,385</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_6">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_6" aria-expanded="false" aria-controls="proposal_collapse_6">
+                    Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information
+                  </button>
+                </div>
+                <div id="proposal_collapse_6" class="collapse" aria-labelledby="proposal_heading_6" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Included development of stakeholder focused data viz and tools - would have used the learning lab to help with project work and give students experience</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Will Holmgren, Mike Crimmins<br>
+                      $365,117</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_7">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_7" aria-expanded="false" aria-controls="proposal_collapse_7">
+                    Public Engagement in Southwest Monsoon Forecasting: A Prototype Game to Build Climate Awareness and to Evaluate Community Forecast Skill
+                  </button>
+                </div>
+                <div id="proposal_collapse_7" class="collapse" aria-labelledby="proposal_heading_7" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>PI: Z. Guido<br>
+                      Co-PI: McMahon, B., Crimmins, C., and Granillo, R.<br>
+                      $13,958</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_8">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_8" aria-expanded="false" aria-controls="proposal_collapse_8">
+                    Innovative Visualization & Analysis Tools for the North American Monsoon - Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support
+                  </button>
+                </div>
+                <div id="proposal_collapse_8" class="collapse" aria-labelledby="proposal_heading_8" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Initial foray into data aggregation.</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Will Holmgren, Mike Crimmins<br>
+                      $25,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="projects">Projects</h2> <!-- Note: This is not linked in main navigation since it's a dropdown -->
+            <div class="card-deck">
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#carbonEconPlotter" role="button">
+                  <h3 class="card-title h4" id="carbon-econ-plotter">Carbon-Econ Plotter</h3>
+                  <p class="card-text font-weight-normal">We map methane plume emission rates measured by Carbon Mapper onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions.</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>
+              </div>
+
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#lorawan-tumamoc" role="button">
+                  <h3 class="card-title h4" id="lorawan">LoRaWAN Remote Sensing Network</h3>
+                  <p class="card-text font-weight-normal">AIR supports the Desert Laboratory on Tumamoc Hill which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>
+              </div>
+            </div>
+            <h3>Monsoon Game Repositories</h3>
+            <p>The following projects all pertain to various aspects of the AIR <a href="https://monsoonfantasy.arizona.edu/">Monsoon Fantasy Game</a>. These repositories include the detailed scoring method and a post game analysis.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="publications">Publications</h2>
+            <p>Dharma H, Granillo RL III, Boeman L, McMahan B, Crimmins MA (2022) Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate (IN REVIEW)</p>
+            <p>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml">https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml</a></p>
+            <p>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.6878318">https://doi.org/10.5281/zenodo.6878318</a></p>
+            <p>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full">Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development</a>. Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573</p>
+            <h3>Works in Progress</h3>
+            <p>Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)</p>
+            <p>Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="students">Student Contributors</h2>
+            <h3>Current</h3>
+            
+            <h3>Former</h3>
+          </div>
         </div>
       </div>
     </main>
+
+
+    <!-- Modals -->
+    <!-- Carbon-Econ Plotter-->
+    <div id="carbonEconPlotter" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=carbonEconPlotterLabel aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="carbonEconPlotterLabel">Carbon-Econ Plotter</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by <a href="https://carbonmapper.org/">Carbon Mapper</a> onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average <a href="https://www.census.gov/programs-surveys/acs">American Community Survey</a>. This map and scatter plots can be viewed at <a href="https://carbon-plotter.air.arizona.edu/map">Carbon Plotter</a> website.</p>
+            <hr>
+            <img src="images/carbonplotter.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LoRaWAN -->
+    <div id="lorawan-tumamoc" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=lorawan-tumamocLabel aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="lorawan-tumamocLabel">LoRaWAN Remote Sensing Network</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIR supports the <a href="https://tumamoc.arizona.edu/">Desert Laboratory on Tumamoc Hill</a> which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.</p>
+            <hr>
+            <img src="images/lorawan_tumamoc.jpg" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
 
     <!-- Footer -->
     <footer class="footer bg-warm-gray text-center">
       <div class="container py-4">
         <div class="row">
           <div class="col-12">
-            <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button>
-            <hr />
+            <!-- <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button> | <button class="btn btn-link">Link</button>
+            <hr /> -->
             <small class="text-black">The University of Arizona</small>
           </div>
         </div>
