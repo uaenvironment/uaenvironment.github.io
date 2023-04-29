@@ -53,12 +53,12 @@
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                 <a class="dropdown-item" href="#carbon-econ-plotter">Carbon-Econ Plotter</a>
                 <a class="dropdown-item" href="#lorawan">LoRaWAN Remote Sensing Network</a>
-                <a class="dropdown-item" href="#">Monsoon Game</a>
-                <a class="dropdown-item" href="#">Monsoon Data Collection and Processing</a>
-                <a class="dropdown-item" href="#">Regenerate Lebanon</a>
-                <a class="dropdown-item" href="#">Jamaica Coffee Leaf Rust</a>
-                <a class="dropdown-item" href="#">Project Visualizations</a>
-                <a class="dropdown-item" href="#">Zambia Invasive Species Tracking</a>
+                <a class="dropdown-item" href="#monsoon-game">Monsoon Game</a>
+                <a class="dropdown-item" href="#monsoon-data-collection">Monsoon Data Collection and Processing</a>
+                <a class="dropdown-item" href="#regenerate-lebanon">Regenerate Lebanon</a>
+                <a class="dropdown-item" href="#jamaica-coffee-leaf-rust">Jamaica Coffee Leaf Rust</a>
+                <a class="dropdown-item" href="#project-visualizations">Project Visualizations</a>
+                <a class="dropdown-item" href="#zambia-invasive-species-tracking">Zambia Invasive Species Tracking</a>
               </div>
             </li>
             <li class="nav-item">
@@ -103,6 +103,13 @@
                     </li>
                   </ul>
                 </li>
+                <li><a href="https://github.com/rogerpalmenberg">Roger Palmenberg</a>
+                  <ul>
+                    <li>
+                      Major: Statistics and Data Science
+                    </li>
+                  </ul>
+                </li>
                 <li><a href="https://github.com/lilymcmullen">Lily McMullen</a>
                   <ul>
                     <li>
@@ -110,13 +117,6 @@
                     </li>
                     <li>
                       Minor: Computer Science
-                    </li>
-                  </ul>
-                </li>
-                <li><a href="https://github.com/rogerpalmenberg">Roger Palmenberg</a>
-                  <ul>
-                    <li>
-                      Major: Statistics and Data Science
                     </li>
                   </ul>
                 </li>
@@ -300,13 +300,12 @@
             <h2 id="projects">Projects</h2> <!-- Note: This is not linked in main navigation since it's a dropdown -->
             <div class="card-deck">
               <div class="card card-borderless card-clickable">
-                <a class="card-body pt-0" data-toggle="modal" data-target="#carbonEconPlotter" role="button">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#carbon-econ-plotter-modal" role="button">
                   <h3 class="card-title h4" id="carbon-econ-plotter">Carbon-Econ Plotter</h3>
                   <p class="card-text font-weight-normal">We map methane plume emission rates measured by Carbon Mapper onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions.</p>
                   <p class="card-clickable-link">More Information</p>
                 </a>
               </div>
-
               <div class="card card-borderless card-clickable">
                 <a class="card-body pt-0" data-toggle="modal" data-target="#lorawan-tumamoc" role="button">
                   <h3 class="card-title h4" id="lorawan">LoRaWAN Remote Sensing Network</h3>
@@ -315,15 +314,51 @@
                 </a>
               </div>
             </div>
-            <h3>Monsoon Game Repositories</h3>
+            <h3 id="monsoon-game">Monsoon Game Repositories</h3>
             <p>The following projects all pertain to various aspects of the AIR <a href="https://monsoonfantasy.arizona.edu/">Monsoon Fantasy Game</a>. These repositories include the detailed scoring method and a post game analysis.</p>
+            <div class="card-deck">
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#monsoon-fantasy-game-modal" role="button">
+                  <h3 class="card-title h4" id="monsoon-fantasy-game">Monsoon Fantasy Game</h3>
+                  <p class="card-text font-weight-normal">In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso.</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>
+              </div>
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#monsoon-game-scoring-method-modal" role="button">
+                  <h3 class="card-title h4" id="monsoon-game-scoring-method">Monsoon Game Scoring Method</h3>
+                  <p class="card-text font-weight-normal">This repository contains a description of the scoring system used in the Monsoon Fantasy game and a simulation that was created to compare different scoring methods before the final scoring method was decided upon.</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>
+              </div>
+            </div>
+            <div class="card-deck">
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#monsoon-post-game-analysis-modal" role="button">
+                  <h3 class="card-title h4" id="monsoon-post-game-analysis">Monsoon Post Game Analysis</h3>
+                  <p class="card-text font-weight-normal">When signing up to play Monsoon Fantasy, players had the option to fill out profile questions. These questions asked things such as: How many monsoon seasons have you experienced while living in the southwest?</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>  
+              </div>
+            </div>
+            <h3 id="monsoon-data-collection">Monsoon Data Collection and Processing</h3>
+            <p>The following projects are geared towards improving the availability of monsoon related meteorological data in Arizona by providing a centralized and persistent source for otherwise ephemeral observation data and demonstrating the value of that data through visualization and machine learning applications.</p>
+            <div class="card-deck">
+              <div class="card card-borderless card-clickable">
+                <a class="card-body pt-0" data-toggle="modal" data-target="#monsoon-scraper-modal" role="button">
+                  <h3 class="card-title h4" id="monsoon-post-game-analysis">Monsoon Scraper</h3>
+                  <p class="card-text font-weight-normal">This project centralizes public data from several different Flood Control District (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research.</p>
+                  <p class="card-clickable-link">More Information</p>
+                </a>  
+              </div>
+            </div>
           </div>
         </div>
         <div class="row">
           <div class="col-12">
             <h2 id="publications">Publications</h2>
             <p>Dharma H, Granillo RL III, Boeman L, McMahan B, Crimmins MA (2022) Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate (IN REVIEW)</p>
-            <p>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml">https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml</a></p>
+            <p>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml" class="d-inline-block text-truncate" style="max-width: 100%;">https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml</a></p>
             <p>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.6878318">https://doi.org/10.5281/zenodo.6878318</a></p>
             <p>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full">Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development</a>. Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573</p>
             <h3>Works in Progress</h3>
@@ -335,8 +370,55 @@
           <div class="col-12">
             <h2 id="students">Student Contributors</h2>
             <h3>Current</h3>
-            
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/dharmahoy.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Dharma Hoy headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/dharmahoy">Dharma Hoy</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/rogerpalmenberg.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Roger Palmenberg headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/rogerpalmenberg">Roger Palmenberg</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/lilymcmullen.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Lily McMullen headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/lilymcmullen">Lily McMullen</a></span></p>
+                </div>
+              </div>
+            </div>
             <h3>Former</h3>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/rose-prendergast.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Rose Prendergast headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/rose-prendergast">Rose Prendergast</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/shyambhavi3.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Shyambhavi Shyambhavi headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/shyambhavi3">Shyambhavi Shyambhavi</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/francesslater.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Franny Slater headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/francesslater">Franny Slater</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/calvinlarsen.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="CJ Larsen headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/calvinlarsen">CJ Larsen</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/gbdelgado.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Benni Delgado headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/gbdelgado">Benni Delgado</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/mauherrerag.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Mau Herrera headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/mauherrerag">Mau Herrera</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://media-exp1.licdn.com/dms/image/C5603AQFKAhA8stmqjA/profile-displayphoto-shrink_200_200/0/1574332029734?e=2147483647&v=beta&t=CV57gJAfRYsQn63pIfOLICmKkyVGngB9zx3Z7Hv5pd8" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Lauren Tran headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://www.linkedin.com/in/laurenktran">Lauren Tran</a></span></p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -345,11 +427,11 @@
 
     <!-- Modals -->
     <!-- Carbon-Econ Plotter-->
-    <div id="carbonEconPlotter" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=carbonEconPlotterLabel aria-hidden="true">
+    <div id="carbon-econ-plotter-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=carbon-econ-plotter-label aria-hidden="true">
       <div class="modal-dialog modal-lg" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h3 class="modal-title" id="carbonEconPlotterLabel">Carbon-Econ Plotter</h3>
+            <h3 class="modal-title" id="carbon-econ-plotter-label">Carbon-Econ Plotter</h3>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -357,7 +439,7 @@
           <div class="modal-body">
             <p>Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by <a href="https://carbonmapper.org/">Carbon Mapper</a> onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average <a href="https://www.census.gov/programs-surveys/acs">American Community Survey</a>. This map and scatter plots can be viewed at <a href="https://carbon-plotter.air.arizona.edu/map">Carbon Plotter</a> website.</p>
             <hr>
-            <img src="images/carbonplotter.png" class="img-fluid">
+            <img src="images/carbonplotter.png" class="img-fluid" alt="A screenshot of the Carbon Plotter website.">
           </div>
         </div>
       </div>
@@ -375,14 +457,110 @@
           <div class="modal-body">
             <p>LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIR supports the <a href="https://tumamoc.arizona.edu/">Desert Laboratory on Tumamoc Hill</a> which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.</p>
             <hr>
-            <img src="images/lorawan_tumamoc.jpg" class="img-fluid">
+            <img src="images/lorawan_tumamoc.jpg" class="img-fluid" alt="A LoRaWAN gateway and antenna installed at the top of the main laboratory building on Tumamoc Hill.">
           </div>
         </div>
       </div>
     </div>
-
-
-
+    <!-- Monsoon Fantasy Game -->
+    <div id="monsoon-fantasy-game-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-fantasy-game-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-fantasy-game-label">Monsoon Fantasy Game</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso. Points are awarded each month depending on the accuracy of the estimate compared to the actual observed rainfall. The goal is to accumulate the most points over the July, August, September period.</p>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col col-6">
+                  <img src="images/monsoon-game-forecast.png" class="img-fluid" alt="Monsoon Game Forecast">
+                </div>
+                <div class="col col-6">
+                  <img src="images/monsoon-game-leaderboard.png" class="img-fluid" alt="Monsoon Game Leaderboard">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Game Scoring Method -->
+    <div id="monsoon-game-scoring-method-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-game-scoring-method-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-game-scoring-game-label">Monsoon Game Scoring Method</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <a href="https://github.com/uaenvironment/monsoon-game-scoring-method/graphs/contributors"><img src="https://contrib.rocks/image?repo=uaenvironment/monsoon-game-scoring-method" width="150px" alt="profile pictures for the contributors of this project"/></a><br>
+              <a href="https://doi.org/10.5281/zenodo.6878318"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6878318.svg" alt="doi link information"></a>
+            </p>
+            <p>This repository contains a description of the scoring system used in the Monsoon Fantasy game and a simulation that was created to compare different scoring methods before the final scoring method was decided upon. The final scoring method takes into account both the risk and accuracy of a players guess. First, a potential maximum points value is determined for a guess. This value is higher the further a guess is from the historical rainfall average. Then, the player gets a percentage of their potential maximum points value depending on how close their guess is to the actual rainfall. Visit our <a href="https://github.com/uaenvironment/monsoon-game-scoring-method">public GitHub repository</a> for more detailed information.</p>
+            <hr>
+            <img src="images/monsoon_game_scoring.png" class="img-fluid" alt="Monsoon Game Scoring graph">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Post Game Analysis -->
+    <div id="monsoon-post-game-analysis-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-post-game-analysis-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-post-game-analysis-label">Monsoon Post Game Analysis</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>When signing up to play Monsoon Fantasy, players had the option to fill out profile questions. These questions asked things such as</p>
+            <ul>
+              <li>How many monsoon seasons have you experienced while living in the southwest?</li>
+              <li>How would you rate your understanding of the monsoon system?</li>
+              <li>During monsoon season how often do you consult different types of weather forecasts?</li>
+            </ul>
+            <p>All of the questions were optional and the responses were made anonymous before analysis. This data combined with the users' forecasts and points earned were used in this analysis which will be performed and the end of every monsoon season.</p>
+            <hr>
+            <img src="images/monsoon_game_post.png" class="img-fluid" alt="Monsoon Game Scoring graph">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Post Game Analysis -->
+    <div id="monsoon-scraper-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-scraper-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-scraper-label">Monsoon Scraper</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This project centralizes public data from several different Flood Control District (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research. To gather this data we have written a number of applications that run at different intervals dependent on the different FCD network implementations. These applications run on 15 minute to 1 hour intervals. These time intervals are required in order to obtain incremental precipitation data readings which are not available if gathering data on an hour or day interval. In addition to precipitation data, some FCD sensors also report temperature, pressure, humidity, and stream flow intensity in washes.</p>
+            <p>This dataset consists of the following remote sensing precipitation networks along with their API programmatic names. Additional networks will be added as they are implemented.</p>
+            <ul>
+              <li>Pima County FCD - pima_fcd</li>
+              <li>Maricopa County FCD - maricopa_fcd</li>
+              <li>RainLog.org - rainlog</li>
+              <li>MesoWest - mesowest</li>
+              <li>Mohave County FCD - mohave_fcd (data beginning 2021)</li>
+            </ul>
+            <p>Data from the networks above are updated at different frequencies and in some cases multiple times per day or hour. This is variable across networks based on their configuration and if precipitation sensors are experiencing rainfall.</p>
+            <p>The result of this work can be found in a Frontiers in Climate publication titled <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full">Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Footer -->
     <footer class="footer bg-warm-gray text-center">
