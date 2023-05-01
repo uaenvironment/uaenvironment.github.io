@@ -36,6 +36,10 @@ Our current student cohort includes:
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
   - Major: Statistics and Data Science
 
+- [Lily McMullen](https://github.com/lilymcmullen)
+  - Major: Natural Resources (Conservation Biology)
+  - Minor: Computer Science
+
 ### Research Collaborators
 In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
 
@@ -333,6 +337,10 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 <a href="https://github.com/rogerpalmenberg">
   <img src="https://github.com/rogerpalmenberg.png" width="25"> Roger Palmenberg
+</a> 
+
+<a href="https://github.com/lilymcmullen">
+  <img src="https://github.com/lilymcmullen.png" width="25"> Lily McMullen
 </a> 
 
 ---
