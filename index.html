@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Proxima Nova font. -->
+    <link href="https://use.typekit.net/emv3zbo.css" rel="stylesheet" crossorigin="anonymous">
+    <!-- Arizona Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.digital.arizona.edu/lib/az-icons/main/az-icons-styles.css">
+    <!-- Arizona Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/main/css/arizona-bootstrap.min.css">
+    <!-- Material Icons CSS -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+    <title>AIR Technical Research Applications Development | The bridge between Computer Science and Interdisciplinary research</title>
+  </head>
+  <body>
+    <!-- Red Banner (top, with UA logo) -->
+    <div class="bg-red p-1 mb-4">
+        <div class="container">
+            <div class="row">
+              <a class="arizona-logo" href="http://www.arizona.edu" title="The University of Arizona homepage">
+                <img class="arizona-line-logo" alt="The University of Arizona Wordmark Line Logo White" src="https://cdn.digital.arizona.edu/logos/v1.0.0/ua_wordmark_line_logo_white_rgb.min.svg"/>
+              </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Logo Header -->
+    <div class="container">
+    <div class="row">
+        <div class="col col-12 col-md-4 mb-4 mt-3">
+            <a href="https://air.arizona.edu"><img class="img-fluid" src="images/airLogo-dark.png" alt="Arizona Institute for Resilience"></a>
+        </div>
+        <div class="col col-12 col-md-8 mb-4 text-center text-md-right">
+            <a class="btn btn-red my-4" href="https://github.com/uaenvironment/uaenvironment.github.io">View on Github</a>
+        </div>
+    </div>
+    <div class="row">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light col-12 p-0">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#collaborators">Collaborators</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#proposals">Proposals</a>
+            </li>
+            <li class="nav-item dropdown">
+              <button class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
+                Projects
+              </button>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#monsoon-game">Monsoon Game Repositories</a>
+                <a class="dropdown-item" href="#monsoon-data-collection">Monsoon Data Collection and Processing</a>
+                <a class="dropdown-item" href="#carbon-econ-plotter">Carbon-Econ Plotter</a>
+                <a class="dropdown-item" href="#lorawan">LoRaWAN Remote Sensing Network</a>
+                <a class="dropdown-item" href="#regenerate-lebanon">Regenerate Lebanon</a>
+                <a class="dropdown-item" href="#jamaica-coffee-leaf-rust">Jamaica Coffee Leaf Rust</a>
+                <a class="dropdown-item" href="#project-visualizations">Project Visualizations</a>
+                <a class="dropdown-item" href="#zambia-invasive-species-tracking">Zambia Invasive Species Tracking</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#publications">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#students">Students</a>
+            </li>
+          </ul>
+      </nav>
+    </div>
+    </div>
+    <!-- Main Content -->
+    <main role="main">
+      <div class="container">
+        <div class="row">
+            <!-- Heading -->
+            <div class="col-12 text-center">
+              <h1 class="mb-2">AIR Technical Research Applications Development</h1>
+              <p class="lead">The bridge between Computer Science and Interdisciplinary research</p>
+            </div>
+            <!-- Overview Section (not linked in menu) -->
+            <div class="col-12">
+              <h2 class="h1">Overview</h2>
+              <h3>Who we are</h3>
+              <p>We are the Technical Research Applications Development group found within the <a href="https://air.arizona.edu">Arizona Institute for Resilience</a> (AIR). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the <a href="https://air.arizona.edu/centers-programs">Centers and Programs</a> found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.</p>
+              <p>The research applications group is led by <a href="https://github.com/reyg3">Rey Granillo</a> Director of Technology and Research Computing, <a href="https://github.com/lboeman">Leland Boeman</a> Research & Development Software Engineer, and <a href="https://github.com/tweissaz">Thomas Weiss</a> Research & Development Systems Engineer.</p>
+              <h3>How we do it</h3>
+              <h4>Development Process</h4>
+              <p>By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.</p>
+              <h4>Student Support</h4>
+              <p>We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.</p>
+              <p>Our current student cohort includes:</p>
+              <ul>
+                <li><a href="https://github.com/dharmahoy">Dharma Hoy</a>
+                  <ul>
+                    <li>
+                      Major: Statistics and Data Science
+                    </li>
+                    <li>
+                      Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="https://github.com/rogerpalmenberg">Roger Palmenberg</a>
+                  <ul>
+                    <li>
+                      Major: Statistics and Data Science
+                    </li>
+                  </ul>
+                </li>
+                <li><a href="https://github.com/lilymcmullen">Lily McMullen</a>
+                  <ul>
+                    <li>
+                      Major: Natural Resources (Conservation Biology)
+                    </li>
+                    <li>
+                      Minor: Computer Science
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+          </div>
+        </div>
+        <!-- Collaborators Section -->
+        <div class="row">
+          <div class="col-12">
+            <h2 id="collaborators">Research Collaborators</h2>
+            <p>In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona.</p>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/ben-mcmahan.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Ben McMahan headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://climas.arizona.edu/about/people/ben-mcmahan" class="stretched-link">Ben McMahan</a></span><br>AIR, School of Anthropology</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Mike Crimmins headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins" class="stretched-link">Mike Crimmins</a></span><br>CALS - Environmental Sciences</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/ZackGuido.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Zack Guido headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/zack-guido" class="stretched-link">Zack Guido</a></span><br>AIR International Programs</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Tom Evans headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://geography.arizona.edu/people/tom-evans" class="stretched-link">Tom Evans</a></span><br>SBS - School of Geography and Development</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/RileyDuren.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Riley Duren headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/riley-duren" class="stretched-link">Riley Duren</a></span><br>CEO Carbon Mapper</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/eller-Wesley-Howden.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Wes Howden headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://eller.arizona.edu/people/wesley-howden" class="stretched-link">Wes Howden</a></span><br>Eller College of Management</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/Hara%20Crop.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Konan Hara headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://eller.arizona.edu/people/konan-hara" class="stretched-link">Konan Hara</a></span><br>Eller Doctoral Student Economics</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://anthropology.arizona.edu/sites/anthropology.arizona.edu/files/styles/large/public/images/people/Rosenbaum%2CRachel.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Rachel Rosenbaum headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum" class="stretched-link">Rachel Rosenbaum</a></span><br>PhD Candidate School of Anthropology</p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Nancy Petersen headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://air.arizona.edu/person/nancy-petersen" class="stretched-link">Nancy Petersen</a></span><br>AIR Haury Program</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Proposals Section -->
+        <div class="row">
+          <div class="col-12">
+            <h2 id="proposals">Proposals</h2>
+            <div class="accordion" id="proposal_accordion">
+              <div class="card">
+                <div class="card-header" id="proposal_heading_1">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_1" aria-expanded="false" aria-controls="proposal_collapse_1">
+                    Integrating Data Science and ML/AI into Stakeholder Informed Assessments of Fire Weather Tools
+                  </button>
+                </div>
+                <div id="proposal_collapse_1" class="collapse" aria-labelledby="proposal_heading_1" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Study/Project Aim(s) IDENTIFY fire weather forecast priorities and EXPAND the fire weather stakeholder network, DEVELOP experimental fire weather analysis and visualization prototypes, based on insights from data science, Ux testing, and ML/AI, CO-PRODUCE relevant, salient, and credible fire weather information collaboration with fire managers that ENHANCE fire weather impact decision support services (a NOAA/Npriority), and DEVELOP strategies to expand these products at scale for use by wider networks of fire managers, and EXPLORE opportunities for aggregation, management, visualization, and analysis of fire rand weather data</p>
+                    <p>PI: Rey Granillo<br>
+                    Co-Applicants: Ben McMahan, Leland Boeman<br>
+                    $304,609</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_2">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_2" aria-expanded="false" aria-controls="proposal_collapse_2">
+                    High-Resolution multitemporal urban heat mapping: innovations in data aggregation, community engaged citizen science, and student experiential learning, to develop a scalable heat mapping platform in the Southwest
+                  </button>
+                </div>
+                <div id="proposal_collapse_2" class="collapse" aria-labelledby="proposal_heading_2" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Proof of concept for data aggregation work, development of heat island data and visualization, laid foundation for student training in interdisciplinary and stakeholder engaged research at intersection of climate/social/computer science</p>
+                    <p>PI: Ben McMahan & Rey Granillo<br>
+                      $144,646</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_3">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_3" aria-expanded="false" aria-controls="proposal_collapse_3">
+                    Can We Make a “RainLog for Heat Maps”? – Leveraging Data Aggregation and Citizen Science to Improve Temperature Maps and Enhance Outreach, Engagement and Education
+                  </button>
+                </div>
+                <div id="proposal_collapse_3" class="collapse" aria-labelledby="proposal_heading_3" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Proof of concept for data aggregation work, would have helped lay foundation for future student collaborative work, and faculty led proposals</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Mike Crimmins<br>
+                      $40,554</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_4">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_4" aria-expanded="false" aria-controls="proposal_collapse_4">
+                    Stakeholder Informed Assessments of Fire Weather Impact Decision Support Services
+                  </button>
+                </div>
+                <div id="proposal_collapse_4" class="collapse" aria-labelledby="proposal_heading_4" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Heavy involvement on data aggregation and UX/visualization development. (why Rey was PI, as learning lab was heavily implicated in our proposed capacity)</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Rey Granillo, Mike Crimmins, Will Holmgren<br>
+                      $638,224</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_5">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_5" aria-expanded="false" aria-controls="proposal_collapse_5">
+                    Anticipating Extreme Monsoon Rainfall: Integrating Machine Learning and Artificial Intelligence into Flood Risk Prediction Models
+                  </button>
+                </div>
+                <div id="proposal_collapse_5" class="collapse" aria-labelledby="proposal_heading_5" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Use ML techniques to organize aggregated monsoon data to create improved flood decision support and data viz</p>
+                    <p>PI: Ben McMahan & Rey Granillo<br>
+                      $24,385</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_6">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_6" aria-expanded="false" aria-controls="proposal_collapse_6">
+                    Adapting and Enhancing the Monsoon Threat Index: Iterative Development of Stakeholder Informed Climate Services and Weather Information
+                  </button>
+                </div>
+                <div id="proposal_collapse_6" class="collapse" aria-labelledby="proposal_heading_6" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Included development of stakeholder focused data viz and tools - would have used the learning lab to help with project work and give students experience</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Will Holmgren, Mike Crimmins<br>
+                      $365,117</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_7">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_7" aria-expanded="false" aria-controls="proposal_collapse_7">
+                    Public Engagement in Southwest Monsoon Forecasting: A Prototype Game to Build Climate Awareness and to Evaluate Community Forecast Skill
+                  </button>
+                </div>
+                <div id="proposal_collapse_7" class="collapse" aria-labelledby="proposal_heading_7" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>PI: Z. Guido<br>
+                      Co-PI: McMahon, B., Crimmins, C., and Granillo, R.<br>
+                      $13,958</p>
+                  </div>
+                </div>
+              </div>
+              <div class="card">
+                <div class="card-header" id="proposal_heading_8">
+                  <button class="btn btn-link collapsed pr-5" type="button" data-toggle="collapse" data-target="#proposal_collapse_8" aria-expanded="false" aria-controls="proposal_collapse_8">
+                    Innovative Visualization & Analysis Tools for the North American Monsoon - Connecting Citizen Science Data and Observations for Research, Policy, and Decision Support
+                  </button>
+                </div>
+                <div id="proposal_collapse_8" class="collapse" aria-labelledby="proposal_heading_8" data-parent="#proposal_accordion">
+                  <div class="card-body">
+                    <p>Initial foray into data aggregation.</p>
+                    <p>PI: Ben McMahan<br>
+                      Co-PI: Will Holmgren, Mike Crimmins<br>
+                      $25,000</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="projects">Projects</h2> <!-- Note: This is not linked in main navigation since it's a dropdown -->
+            <h3 id="monsoon-game">Monsoon Game Repositories</h3>
+            <p>The following projects all pertain to various aspects of the AIR <a href="https://monsoonfantasy.arizona.edu/">Monsoon Fantasy Game</a>. These repositories include the detailed scoring method and a post game analysis.</p>
+            <div class="container p-0">
+              <div class="row">
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-fantasy-game">Monsoon Fantasy Game</h3>
+                    <p class="card-text font-weight-normal">In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-fantasy-game-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-game-scoring-method">Monsoon Game Scoring Method</h3>
+                    <p class="card-text font-weight-normal">This repository contains a description of the scoring system used in the Monsoon Fantasy game and a simulation that was created to compare different scoring methods before the final scoring method was decided upon.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-game-scoring-method-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-post-game-analysis">Monsoon Post Game Analysis</h3>
+                    <p class="card-text font-weight-normal">When signing up to play Monsoon Fantasy, players had the option to fill out profile questions. These questions asked things such as: How many monsoon seasons have you experienced while living in the southwest?</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-post-game-analysis-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 id="monsoon-data-collection">Monsoon Data Collection and Processing</h3>
+            <p>The following projects are geared towards improving the availability of monsoon related meteorological data in Arizona by providing a centralized and persistent source for otherwise ephemeral observation data and demonstrating the value of that data through visualization and machine learning applications.</p>
+            <div class="container p-0">
+              <div class="row">
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-scraper">Monsoon Scraper</h3>
+                    <p class="card-text font-weight-normal">This project centralizes public data from several different Flood Control District (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-scraper-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-data-api">Monsoon Data Application Programming Interface (API)</h3>
+                    <p class="card-text font-weight-normal">Once data from the Monsoon Scraper project was gathered, we developed a REST API to programmatically query the dataset. The API contains a number of custom routes designed to query specific sets of data.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-data-api-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-plotter">Monsoon Plotter</h3>
+                    <p class="card-text font-weight-normal">Monsoon Plotter is used to visually represent the data gathered via the Monsoon Scraper project which collects data from the state of Arizona flood control district (FCD) remote sensing networks. There are a handful of networks that can be plotted and more will be added as we expand our Monsoon Scraper project to gather more data.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-plotter-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-package">Monsoon API Package/CLI Tool</h3>
+                    <p class="card-text font-weight-normal">This Python package serves as a wrapper to simplify REST API calls to the monsoon scraper data warehouse. The plotter allows a limited export of the data dependent on the date range and sensor network being plotted.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-package-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="monsoon-machine-learning">Monsoon Machine Learning</h3>
+                    <p class="card-text font-weight-normal">This repository takes historical weather data from the Tucson International Airport, precipitation data from our Monsoon API, and storm data from NOAA and applies these machine learning algorithms in an attempt to accurately predict flooding using historic data and a database of notable flood and rainfall events.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#monsoon-machine-learning-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h3 id="other-projects">Other Projects</h3>
+            <div class="container p-0">
+              <div class="row">
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="carbon-econ-plotter">Carbon-Econ Plotter</h3>
+                    <p class="card-text font-weight-normal">We map methane plume emission rates measured by Carbon Mapper onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#carbon-econ-plotter-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="lorawan">LoRaWAN Remote Sensing Network</h3>
+                    <p class="card-text font-weight-normal">AIR supports the Desert Laboratory on Tumamoc Hill which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#lorawan-tumamoc" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="regenerate-lebanon">Regenerate Lebanon</h3>
+                    <p class="card-text font-weight-normal">This project stemmed from a UN funding award through the Japanese Embassy to provide a mapping service of recycle centers across Lebanon. The project then branched out to include sustainable businesses and other environmentally friendly organizations.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#regenerate-lebanon-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="jamaica-coffee-leaf-rust">Jamaica Coffee Leaf Rust</h3>
+                    <p class="card-text font-weight-normal">This was a proof-of-concept application that was built using Google's Vision AI to detect Coffee Leaf Rust which is a fungus that kills coffee plant crop fields. The idea was to detect this fungus via photos taken by farmers in Jamaica.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#jamaica-coffee-leaf-rust-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="project-visualizations">Project Visualizations</h3>
+                    <p class="card-text font-weight-normal">This project was developed for the Agnese Nelms Haury Program in Environment and Social Justice. The idea was to use models and algorithms in Natural Language Processing (NLP) to find similarities or potential collaboration opportunities across abstract and proposal submissions.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#project-visualizations-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="zambia-invasive-species-tracking">Zambia Invasive Species Tracking</h3>
+                    <p class="card-text font-weight-normal">This invasive species tracking application was designed to plot the detection of the Fall Army Worm (FAW) across maize crops in Zambia. The result of this tracking helped governmental agriculture decision makers in focussing remediation efforts of FAW.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#zambia-invasive-species-tracking-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="publications">Publications</h2>
+            <p>Dharma H, Granillo RL III, Boeman L, McMahan B, Crimmins MA (2022) Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate (IN REVIEW)</p>
+            <p>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <a href="https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml" class="d-inline-block text-truncate" style="max-width: 100%;">https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml</a></p>
+            <p>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. <a href="https://doi.org/10.5281/zenodo.6878318">https://doi.org/10.5281/zenodo.6878318</a></p>
+            <p>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full">Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development</a>. Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573</p>
+            <h3>Works in Progress</h3>
+            <p>Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)</p>
+            <p>Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <h2 id="students">Student Contributors</h2>
+            <h3>Current</h3>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/dharmahoy.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Dharma Hoy headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/dharmahoy" class="stretched-link">Dharma Hoy</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/rogerpalmenberg.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Roger Palmenberg headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/rogerpalmenberg" class="stretched-link">Roger Palmenberg</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/lilymcmullen.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Lily McMullen headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/lilymcmullen" class="stretched-link">Lily McMullen</a></span></p>
+                </div>
+              </div>
+            </div>
+            <h3>Former</h3>
+            <div class="container">
+              <div class="row text-center">
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/rose-prendergast.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Rose Prendergast headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/rose-prendergast" class="stretched-link">Rose Prendergast</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/shyambhavi3.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Shyambhavi Shyambhavi headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/shyambhavi3" class="stretched-link">Shyambhavi Shyambhavi</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/francesslater.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Franny Slater headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/francesslater" class="stretched-link">Franny Slater</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/calvinlarsen.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="CJ Larsen headshot">
+                  <p class="mt-2"><span class="lead"><a href="https://github.com/calvinlarsen" class="stretched-link">CJ Larsen</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/gbdelgado.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Benni Delgado headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/gbdelgado" class="stretched-link">Benni Delgado</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://github.com/mauherrerag.png" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Mau Herrera headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://github.com/mauherrerag" class="stretched-link">Mau Herrera</a></span></p>
+                </div>
+                <div class="col-6 col-md-4 col-lg-3">
+                  <img src="https://media-exp1.licdn.com/dms/image/C5603AQFKAhA8stmqjA/profile-displayphoto-shrink_200_200/0/1574332029734?e=2147483647&v=beta&t=CV57gJAfRYsQn63pIfOLICmKkyVGngB9zx3Z7Hv5pd8" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Lauren Tran headshot">
+                  <p class="mt-2 align-text-bottom"><span class="lead"><a href="https://www.linkedin.com/in/laurenktran" class="stretched-link">Lauren Tran</a></span></p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+
+    <!-- Modals -->
+    <!-- Monsoon Fantasy Game -->
+    <div id="monsoon-fantasy-game-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-fantasy-game-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-fantasy-game-label">Monsoon Fantasy Game</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso. Points are awarded each month depending on the accuracy of the estimate compared to the actual observed rainfall. The goal is to accumulate the most points over the July, August, September period.</p>
+            <hr>
+            <div class="container">
+              <div class="row">
+                <div class="col col-6">
+                  <img src="images/monsoon-game-forecast.png" class="img-fluid" alt="Monsoon Game Forecast">
+                </div>
+                <div class="col col-6">
+                  <img src="images/monsoon-game-leaderboard.png" class="img-fluid" alt="Monsoon Game Leaderboard">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Game Scoring Method -->
+    <div id="monsoon-game-scoring-method-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-game-scoring-method-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-game-scoring-game-label">Monsoon Game Scoring Method</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>
+              <a href="https://github.com/uaenvironment/monsoon-game-scoring-method/graphs/contributors"><img src="https://contrib.rocks/image?repo=uaenvironment/monsoon-game-scoring-method" width="150px" alt="profile pictures for the contributors of this project"/></a><br>
+              <a href="https://doi.org/10.5281/zenodo.6878318"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.6878318.svg" alt="doi link information"></a>
+            </p>
+            <p>This repository contains a description of the scoring system used in the Monsoon Fantasy game and a simulation that was created to compare different scoring methods before the final scoring method was decided upon. The final scoring method takes into account both the risk and accuracy of a players guess. First, a potential maximum points value is determined for a guess. This value is higher the further a guess is from the historical rainfall average. Then, the player gets a percentage of their potential maximum points value depending on how close their guess is to the actual rainfall. Visit our <a href="https://github.com/uaenvironment/monsoon-game-scoring-method">public GitHub repository</a> for more detailed information.</p>
+            <hr>
+            <img src="images/monsoon_game_scoring.png" class="img-fluid" alt="Monsoon Game Scoring graph">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Post Game Analysis -->
+    <div id="monsoon-post-game-analysis-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-post-game-analysis-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-post-game-analysis-label">Monsoon Post Game Analysis</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>When signing up to play Monsoon Fantasy, players had the option to fill out profile questions. These questions asked things such as</p>
+            <ul>
+              <li>How many monsoon seasons have you experienced while living in the southwest?</li>
+              <li>How would you rate your understanding of the monsoon system?</li>
+              <li>During monsoon season how often do you consult different types of weather forecasts?</li>
+            </ul>
+            <p>All of the questions were optional and the responses were made anonymous before analysis. This data combined with the users' forecasts and points earned were used in this analysis which will be performed and the end of every monsoon season.</p>
+            <hr>
+            <img src="images/monsoon_game_post.png" class="img-fluid" alt="Monsoon Game Scoring graph">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Scraper -->
+    <div id="monsoon-scraper-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-scraper-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-scraper-label">Monsoon Scraper</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This project centralizes public data from several different Flood Control District (FCD) networks across the state of Arizona. This data is stored in a cloud based data warehouse and serves as the central data source for a number of monsoon related projects and research. To gather this data we have written a number of applications that run at different intervals dependent on the different FCD network implementations. These applications run on 15 minute to 1 hour intervals. These time intervals are required in order to obtain incremental precipitation data readings which are not available if gathering data on an hour or day interval. In addition to precipitation data, some FCD sensors also report temperature, pressure, humidity, and stream flow intensity in washes.</p>
+            <p>This dataset consists of the following remote sensing precipitation networks along with their API programmatic names. Additional networks will be added as they are implemented.</p>
+            <ul>
+              <li>Pima County FCD - pima_fcd</li>
+              <li>Maricopa County FCD - maricopa_fcd</li>
+              <li>RainLog.org - rainlog</li>
+              <li>MesoWest - mesowest</li>
+              <li>Mohave County FCD - mohave_fcd (data beginning 2021)</li>
+            </ul>
+            <p>Data from the networks above are updated at different frequencies and in some cases multiple times per day or hour. This is variable across networks based on their configuration and if precipitation sensors are experiencing rainfall.</p>
+            <p>The result of this work can be found in a Frontiers in Climate publication titled <a href="https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full">Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development</a>.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Data Application Programming Interface (API) -->
+    <div id="monsoon-data-api-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-data-api-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-data-api-modal-label">Monsoon Data Application Programming Interface (API)</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Once data from the Monsoon Scraper project was gathered, we developed a REST API to programmatically query the dataset. The API contains a number of custom routes designed to query specific sets of data. Some of these routes include our monsoon route which returns precipitation totals from specified networks or sensors between June 15th - September 30th of provided years, a flood route which returns data from flood gauge sensors typically found in washes, a sensors metadata route which returns metadata of specific sensors, and a readings route which queries specific sensors or networks using a provided date range.</p>
+            <p>Currently, API keys are only issued to researchers working with this dataset. There are plans to expand this audience in the future.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Plotter -->
+    <div id="monsoon-plotter-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-plotter-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-plotter-modal-label">Monsoon Plotter</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Monsoon Plotter is used to visually represent the data gathered via the Monsoon Scraper project which collects data from the state of Arizona flood control district (FCD) remote sensing networks. There are a handful of networks that can be plotted and more will be added as we expand our Monsoon Scraper project to gather more data. There is also a limited CSV export feature available of the specific data points chosen to be plotted. For full exports of data an API key is required to make programmatic calls to the Monsoon API.</p>
+            <hr>
+            <img src="images/monsoon_plotter.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon API Package/CLI Tool -->
+    <div id="monsoon-package-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-package-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-package-modal-label">Monsoon API Package/CLI Tool</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This Python package serves as a wrapper to simplify REST API calls to the monsoon scraper data warehouse. This is the same dataset that is visually represented in our monsoon plotter found at <a href="https://monsoon.environment.arizona.edu/">monsoon.environment.arizona.edu</a>. The plotter allows a limited export of the data dependent on the date range and sensor network being plotted. This package allows you to incorporate our monsoon dataset into a local codebase for processing.</p>
+            <p>This package also contains a Command Line Interface (CLI) tool for those who prefer to work within a CLI instead of the Python package.</p>
+            <p>This repository is in the process of being published to The Python Package Index (PyPi) which serves as a repository of Python software. Instructions will be added here to install the package once published.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Monsoon Machine Learning -->
+    <div id="monsoon-machine-learning-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="monsoon-machine-learning-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="monsoon-machine-learning-label">Monsoon Machine Learning</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This repository contains code in R and Python that demonstrates how to create basic machine learning algorithms. It then takes historical weather data from the Tucson International Airport, precipitation data from our Monsoon API, and storm data from NOAA and applies these machine learning algorithms in an attempt to accurately predict flooding using historic data and a database of notable flood and rainfall events.</p>
+            <hr>
+            <img src="images/gradientBoosting.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Carbon-Econ Plotter-->
+    <div id="carbon-econ-plotter-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=carbon-econ-plotter-label aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="carbon-econ-plotter-label">Carbon-Econ Plotter</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by <a href="https://carbonmapper.org/">Carbon Mapper</a> onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average <a href="https://www.census.gov/programs-surveys/acs">American Community Survey</a>. This map and scatter plots can be viewed at <a href="https://carbon-plotter.air.arizona.edu/map">Carbon Plotter</a> website.</p>
+            <hr>
+            <img src="images/carbonplotter.png" class="img-fluid" alt="A screenshot of the Carbon Plotter website.">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- LoRaWAN -->
+    <div id="lorawan-tumamoc" class="modal fade" tabindex="-1" role="dialog" aria-labelledby=lorawan-tumamocLabel aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="lorawan-tumamocLabel">LoRaWAN Remote Sensing Network</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIR supports the <a href="https://tumamoc.arizona.edu/">Desert Laboratory on Tumamoc Hill</a> which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.</p>
+            <hr>
+            <img src="images/lorawan_tumamoc.jpg" class="img-fluid" alt="A LoRaWAN gateway and antenna installed at the top of the main laboratory building on Tumamoc Hill.">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Regenerate Lebanon -->
+    <div id="regenerate-lebanon-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="regenerate-lebanon-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="regenerate-lebanon-modal-label">Regenerate Lebanon</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This project stemmed from a UN funding award through the Japanese Embassy to provide a mapping service of recycle centers across Lebanon. The project then branched out to include sustainable businesses and other environmentally friendly organizations.</p>
+            <p>This was a collaboration between a technology company in Lebanon called Imperium Code and other Lebanon non-profits. Our role in the overall project was to provide the mapping solution for the data set. This included mapping the points, displaying their categorizations, as well as implementing a tooltip/popup to display information about each data point. This work can be found on the <a href="https://regeneratehub.org/">Regenerate Hub</a> site.</p>
+            <hr>
+            <img src="images/regenerate_lebanon.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Jamaica Coffee Leaf Rust -->
+    <div id="jamaica-coffee-leaf-rust-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="jamaica-coffee-leaf-rust-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="jamaica-coffee-leaf-rust-modal-label">Jamaica Coffee Leaf Rust</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This was a proof-of-concept application that was built using Google's Vision AI to detect Coffee Leaf Rust which is a fungus that kills coffee plant crop fields. The idea was to detect this fungus via photos taken by farmers in Jamaica. We would then process those photos through the Vision AI algorithm we created to return the probability of positive coffee rust detection. In turn, this would help government officials to focus remediation efforts.</p>
+            <p>We developed this proof-of-concept model using plant life located in UArizona's ENR2 building. We trained this model by feeding it various images of different plant life to show how the image analysis would function and the different probability results.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Project Visualizations -->
+    <div id="project-visualizations-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="project-visualizations-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="project-visualizations-modal-label">Project Visualizations</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This project was developed for the <a href="https://haury.arizona.edu/">Agnese Nelms Haury Program in Environment and Social Justice</a> proposal submission process for research funding. The idea was to use models and algorithms in Natural Language Processing (NLP) to find similarities or potential collaboration opportunities across abstract and proposal submissions. We incorporated a number of models/algorithms in this process to determine which is best suited for the particular set of research themes.</p>
+            <hr>
+            <img src="images/proj_visualizer.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Zambia Invasive Species Tracking -->
+    <div id="zambia-invasive-species-tracking-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="zambia-invasive-species-tracking-modal-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="zambia-invasive-species-tracking-modal-label">Zambia Invasive Species Tracking</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>This invasive species tracking application was designed to plot the detection of the Fall Army Worm (FAW) across maize crops in Zambia. The result of this tracking helped governmental agriculture decision makers in focussing remediation efforts of FAW. To achieve this we worked with data aggregated via analog phone text messaging that was collected by an company in Africa called TextIt. We export that data in a format that allowed us to store responses in a relational way to more easily pull data into our front-end plotter. This data was gathered every 2 weeks during their grow season and plotted via the text campaign date. This application was architected in a way that would allow us to track other species in future research. More information about this project can be found on our <a href="http://faw.environment.arizona.edu/">FAW environment</a> site.</p>
+            <hr>
+            <img src="images/zambia_faw.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Modals -->
+
+    <!-- Footer 
+    <footer class="footer bg-warm-gray text-center">
+      <div class="container py-4">
+        <div class="row">
+          <div class="col-12">
+            <small class="text-black">The University of Arizona</small>
+          </div>
+        </div>
+      </div>
+    </footer>
+    -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Arizona Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.1/dist/jquery.slim.min.js" integrity="sha384-MYL22lstpGhSa4+udJSGro5I+VfM13fdJfCbAzP9krCEoK5r2EDFdgTg2+DGXdj+" crossorigin="anonymous"></script>
+    <!-- Arizona Bootstrap -->
+    <script src="https://cdn.digital.arizona.edu/lib/arizona-bootstrap/main/js/arizona-bootstrap.bundle.min.js"></script>
+  </body>
+</html>
