@@ -37,8 +37,7 @@ Our current student cohort includes:
   - Major: Statistics and Data Science
 
 - [Lily McMullen](https://github.com/lilymcmullen)
-  - Major: Natural Resources (Conservation Biology)
-  - Minor: Computer Science
+  - Majors: Natural Resources (Conservation Biology) and Computer Science
 
 ### Research Collaborators
 In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
