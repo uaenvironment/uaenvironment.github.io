@@ -29,10 +29,6 @@ By developing and combining technologies, we incorporate novel technical solutio
 We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
 
 Our current student cohort includes:
-- [Dharma Hoy](https://github.com/dharmahoy)
-  - Major: Statistics and Data Science
-  - Minors: Physics, Math, and Information, Science, Technology, and Arts (ISTA)
-
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
   - Major: Statistics and Data Science
 
@@ -75,6 +71,15 @@ In addition to our core research applications development team, we've had a numb
     <td><a href="https://air.arizona.edu/person/nancy-petersen"><img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" width="25"> Nancy Petersen </a>
     <br />
     AIR Haury Program</td>
+  </tr>
+  <tr>
+    <td>
+      <a href="https://github.com/dharmahoy">
+        <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
+      </a><br />
+      Statistics Graduate Student Colorado State</td>
+    <td></td>
+    <td></td>
   </tr>
 </table>
 
@@ -330,10 +335,6 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 ### Current:
 
-<a href="https://github.com/dharmahoy">
-  <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
-</a>
-
 <a href="https://github.com/rogerpalmenberg">
   <img src="https://github.com/rogerpalmenberg.png" width="25"> Roger Palmenberg
 </a> 
@@ -345,6 +346,10 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 ---
 
 ### Former:
+
+<a href="https://github.com/dharmahoy">
+  <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
+</a>
 
 <a href="https://github.com/rose-prendergast">
   <img src="https://github.com/rose-prendergast.png" width="25"> Rose Prendergast
