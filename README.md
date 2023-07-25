@@ -65,7 +65,7 @@ In addition to our core research applications development team, we've had a numb
     <td><a href="https://eller.arizona.edu/people/konan-hara"><img src="images/headshots/Hara%20Crop.jpg" width="25"> Konan Hara </a>
     <br />
     Eller Doctoral Student Economics</td>
-    <td><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="images/headshots/Rosenbaum%2CRachel.jpg" width="25"> Rachel Rosenbaum </a>
+    <td><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="images/headshots/RosenbaumRachel.jpeg" width="25"> Rachel Rosenbaum </a>
     <br />
     PhD Candidate School of Anthropology</td>
     <td><a href="https://air.arizona.edu/person/nancy-petersen"><img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" width="25"> Nancy Petersen </a>
