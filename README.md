@@ -43,7 +43,7 @@ In addition to our core research applications development team, we've had a numb
     <td><a href="https://climas.arizona.edu/about/people/ben-mcmahan"><img src="https://github.com/ben-mcmahan.png" width="25"> Ben McMahan </a>
     <br />
     AIR, School of Anthropology</td>
-    <td><a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins"><img src="https://environmentalscience.cals.arizona.edu/sites/swes.cals.arizona.edu/files/styles/uaqs_medium/public/images/people/Crimmins%20Mod.jpg" width="25"> Mike Crimmins </a>
+    <td><a href="https://environmentalscience.cals.arizona.edu/person/michael-crimmins"><img src="images/headshots/Crimmins%20Mod.jpg" width="25"> Mike Crimmins </a>
     <br />
     CALS - Environmental Sciences</td>
     <td><a href="https://air.arizona.edu/person/zack-guido"><img src="https://air.arizona.edu/sites/default/files/2022-12/ZackGuido.jpg" width="25"> Zack Guido </a>
@@ -51,21 +51,21 @@ In addition to our core research applications development team, we've had a numb
     AIR International Programs</td>
   </tr>
   <tr>
-    <td><a href="https://geography.arizona.edu/people/tom-evans"><img src="https://geography.arizona.edu/sites/geography.arizona.edu/files/styles/large/public/images/people/tom%20evans.jpg" width="25"> Tom Evans </a>
+    <td><a href="https://geography.arizona.edu/people/tom-evans"><img src="images/headshots/tom%20evans.jpg" width="25"> Tom Evans </a>
     <br />
     SBS - School of Geography and Development</td>
     <td><a href="https://air.arizona.edu/person/riley-duren"><img src="https://air.arizona.edu/sites/default/files/2022-12/RileyDuren.png" width="25"> Riley Duren </a>
     <br />
     CEO Carbon Mapper</td>
-    <td><a href="https://eller.arizona.edu/people/wesley-howden"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/eller-Wesley-Howden.jpg" width="25"> Wes Howden </a>
+    <td><a href="https://eller.arizona.edu/people/wesley-howden"><img src="images/headshots/eller-Wesley-Howden.jpg" width="25"> Wes Howden </a>
     <br />
     Eller College of Management</td>
   </tr>
   <tr>
-    <td><a href="https://eller.arizona.edu/people/konan-hara"><img src="https://eller.arizona.edu/sites/default/files/styles/uaqs_medium/public/images/people/Hara%20Crop.jpg" width="25"> Konan Hara </a>
+    <td><a href="https://eller.arizona.edu/people/konan-hara"><img src="images/headshots/Hara%20Crop.jpg" width="25"> Konan Hara </a>
     <br />
     Eller Doctoral Student Economics</td>
-    <td><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="https://anthropology.arizona.edu/sites/anthropology.arizona.edu/files/styles/large/public/images/people/Rosenbaum%2CRachel.jpg" width="25"> Rachel Rosenbaum </a>
+    <td><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="images/headshots/Rosenbaum%2CRachel.jpg" width="25"> Rachel Rosenbaum </a>
     <br />
     PhD Candidate School of Anthropology</td>
     <td><a href="https://air.arizona.edu/person/nancy-petersen"><img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" width="25"> Nancy Petersen </a>
@@ -314,20 +314,19 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <br />
 
 # Publications
->>Dharma H, Granillo RL III, Boeman L, McMahan B, Crimmins MA (2022) Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate (IN REVIEW)
+>>Dharma H, Granillo R.L. III, Boeman L, McMahan B, Crimmins MA (2023) [Data Aggregation, ML ready Datasets, and an API: Leveraging diverse data to create enhanced characterizations of monsoon flood risk. Frontiers in Climate](https://www.frontiersin.org/articles/10.3389/fclim.2023.1107363/full). Front. Clim. doi: 10.3389/fclim.2023.1107363
 >
 >>Guido, Z., McMahan, B., Hoy, D., Larsen, C., Delgado, B., Granillo, R. L., III, & Crimmins, M. (2022). Public Engagement on Weather and Climate with a Monsoon Fantasy Forecasting Game, Bulletin of the American Meteorological Society. <https://journals.ametsoc.org/view/journals/bams/aop/BAMS-D-22-0003.1/BAMS-D-22-0003.1.xml>
 >
 >>Dharma Hoy, Calvin Larsen, Rey Granillo III, UA's Arizona Institute for Resilient Environments and Societies. (2022). uaenvironment/monsoon-game-scoring-method: v1.0.1 (v1.0.1). Zenodo. <https://doi.org/10.5281/zenodo.6878318>
 >
->>McMahan B, Granillo RL III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
+>>McMahan B, Granillo R.L. III, Delgado B, Herrera M and Crimmins MA (2021) [Curating and Visualizing Dense Networks of Monsoon Precipitation Data: Integrating Computer Science Into Forward Looking Climate Services Development](https://www.frontiersin.org/articles/10.3389/fclim.2021.602573/full). Front. Clim. 3:602573. doi: 10.3389/fclim.2021.602573
 >
 ><br />
 >
 >### Works in Progress
 >> Improving heat mapping using IoT weather station devices (Ben McMahan, Rey Granillo, Leland Boeman, Rose Prendergast, Dharma Hoy, Mike Crimmins)
 >
->> Whitepaper on monsoon fantasy post game analysis and correlations in guessing accuracy with respect to participants geographic location (Rey Granillo, Dharma Hoy)
 
 <br />
 
