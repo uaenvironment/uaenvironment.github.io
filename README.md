@@ -375,5 +375,5 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 </a>
 <br />
 <a href="https://www.linkedin.com/in/laurenktran">
-  <img src="https://media-exp1.licdn.com/dms/image/C5603AQFKAhA8stmqjA/profile-displayphoto-shrink_200_200/0/1574332029734?e=2147483647&v=beta&t=CV57gJAfRYsQn63pIfOLICmKkyVGngB9zx3Z7Hv5pd8" width="25"> Lauren Tran
+  <img src="https://media.licdn.com/dms/image/D5603AQETyylnoKGcew/profile-displayphoto-shrink_200_200/0/1698089684153?e=2147483647&v=beta&t=svZYIFzQgnFQHJ8DUoU6tvaZu0L9SXqzn9LxK1nrqo8" width="25"> Lauren Tran
 </a>
