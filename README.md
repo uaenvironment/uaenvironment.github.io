@@ -8,7 +8,7 @@
 
 <br />
 
-[Collaborators](#research-collaborators) | [Proposals](#proposals) | [Projects](#projects) | [Publications](#publications) | [Students](#student-contributors)
+[Collaborators](#research-collaborators) | [Proposals](#proposals) | [Technology Transfer](#technology-transfer) | [Projects](#projects) | [Publications](#publications) | [Students](#student-contributors)
 
 <br />
 
@@ -18,6 +18,20 @@
 We are the Technical Research Applications Development group found within the [Arizona Institute for Resilience (AIR)](https://air.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers and Programs](https://air.arizona.edu/centers-programs) found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
 
 The research applications group is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research Computing, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
+
+<br />
+
+## Our speciality
+- Research focused software development
+- Cloud computing
+- Data assimilation, processing, and presentation
+- Database architecture and development
+- Application Programming Interface (API) development
+- Remote sensing 
+  - LoRaWAN network gateways
+  - Designing and building microcontrollers
+- 3D printing
+- Machine learning
 
 <br />
 
@@ -67,7 +81,7 @@ In addition to our core research applications development team, we've had a numb
     Eller Doctoral Student Economics</td>
     <td><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum"><img src="images/headshots/RosenbaumRachel.jpeg" width="25"> Rachel Rosenbaum </a>
     <br />
-    PhD Candidate School of Anthropology</td>
+    School of Anthropology</td>
     <td><a href="https://air.arizona.edu/person/nancy-petersen"><img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" width="25"> Nancy Petersen </a>
     <br />
     AIR Haury Program</td>
@@ -165,7 +179,22 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 <br />
 
+# <b>Technology Transfer</b>
+
+>### **National Science Foundation Innovation Corps (NSF I-Corps) Training Program**
+> The U.S. National Science Foundation’s Innovation Corps (I-Corps™) program is an immersive, entrepreneurial training program that facilitates the transformation of invention to impact. This immersive, seven-week experiential training program prepares scientists and engineers to extend their focus beyond the university laboratory — accelerating the economic and societal benefits of NSF-funded and other basic research projects that are ready to move toward commercialization. Visit the NSF's I-Corps website for more information.
+>#### **Desert and Pacific Regional Hub 2023 - Cohort 6 - Fire Data Dynamics**
+>AIR's technology team is working with Tech Launch Arizona on licesning for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology whicha has a strong focus on customer discovery and defining customer segments.
+
+<br />
+
 # <b>Projects</b>
+
+>### **Fire Data Dynamics**
+>With data from the National Interagency Fire Center's (NIFC) Southwest Coordination Center (SWCC), and with funding from the University of Arizona's Technology and Research Initiative Fund (TRIF), we developed a fire data dashboard prototype designed to be used by and inform decision makers during fire events. Using data from past fire events in Arizona and New Mexico, our dashboard displays fire occurrences and their locations, fire burn perimeters (when available), and relevant data from Remote Automated Weather Stations (RAWS) during those fire events. The current prototype also allows stakeholders to export this historical data for use with their own analysis. In addition, new features are being developed to incorporate a live fire viewer, perform predictive machine learning analysis for determining fire weather and occurrence likelihood, and incorporating Weather Research & Forecasting Model (WRF) to inform decision makers of the impact weather could have during fire events. 
+
+>### **Remote Automated Weather Stations (RAWS) Machine learning**
+>RAWS info here.
 
 >### **Carbon-Econ Plotter**
 >Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](https://carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs). This map and scatter plots can be viewed at [Carbon Plotter](https://carbon-plotter.air.arizona.edu/map) website.

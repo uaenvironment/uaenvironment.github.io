@@ -45,12 +45,16 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proposals">Proposals</a>
+            </li><li class="nav-item">
+              <a class="nav-link" href="#tech-transfer">Technology Transfer</a>
             </li>
             <li class="nav-item dropdown">
               <button class="nav-link dropdown-toggle" id="navbarDropdown" data-toggle="dropdown" aria-expanded="false">
                 Projects
               </button>
               <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#fire-data-dynamics">Fire Data Dynamics</a>
+                <a class="dropdown-item" href="#raws-machine-learning">RAWS Machine Learning</a>
                 <a class="dropdown-item" href="#carbon-econ-plotter">Carbon-Econ Plotter</a>
                 <a class="dropdown-item" href="#lorawan">LoRaWAN Remote Sensing Network</a>
                 <a class="dropdown-item" href="#monsoon-game">Monsoon Game Repositories</a>
@@ -86,6 +90,23 @@
               <h3>Who we are</h3>
               <p>We are the Technical Research Applications Development group found within the <a href="https://air.arizona.edu" target="_blank" rel="noopener noreferrer">Arizona Institute for Resilience</a> (AIR). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the <a href="https://air.arizona.edu/centers-programs" target="_blank" rel="noopener noreferrer">Centers and Programs</a> found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.</p>
               <p>The research applications group is led by <a href="https://github.com/reyg3" target="_blank" rel="noopener noreferrer">Rey Granillo</a> Director of Technology and Research Computing, <a href="https://github.com/lboeman" target="_blank" rel="noopener noreferrer">Leland Boeman</a> Research & Development Software Engineer, and <a href="https://github.com/tweissaz" target="_blank" rel="noopener noreferrer">Thomas Weiss</a> Research & Development Systems Engineer.</p>
+
+              <h3>Our specialty</h3>
+              <ul>
+                <li>Research focused software development</li>
+                <li>Cloud computing</li>
+                <li>Data assimilation, processing, and presentation</li>
+                <li>Database architecture and development</li>
+                <li>Application Programming Interface (API) development</li>
+                <li>Remote sensing</li>
+                <ul>
+                  <li>LoRaWAN networking</li>
+                  <li>Designing and building microcontrollers</li>
+                </ul>
+                <li>3D printing</li>
+                <li>Machine learning</li>
+              </ul>
+
               <h3>How we do it</h3>
               <h4>Development Process</h4>
               <p>By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.</p>
@@ -147,7 +168,7 @@
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                   <img src="images/headshots/RosenbaumRachel.jpeg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Rachel Rosenbaum headshot">
-                  <p class="mt-2"><span class="lead"><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum" class="stretched-link" target="_blank" rel="noopener noreferrer">Rachel Rosenbaum</a></span><br>PhD Candidate School of Anthropology</p>
+                  <p class="mt-2"><span class="lead"><a href="https://anthropology.arizona.edu/people/rachel-rosenbaum" class="stretched-link" target="_blank" rel="noopener noreferrer">Rachel Rosenbaum</a></span><br>School of Anthropology</p>
                 </div>
                 <div class="col-6 col-md-4 col-lg-3">
                   <img src="https://air.arizona.edu/sites/default/files/2022-12/NancyP.jpg" style="max-height: 188px;" class="img-fluid img-thumbnail" alt="Nancy Petersen headshot">
@@ -288,11 +309,37 @@
             </div>
           </div>
         </div>
+
+        <div class="row">
+          <div class="col-12">
+            <h2 id="tech-transfer">Technology Transfer</h2>
+            <h3>National Science Foundation Innovation Corps (NSF I-Corps) Training Program</h3>
+            <p>The U.S. National Science Foundation’s Innovation Corps (I-Corps™) program is an immersive, entrepreneurial training program that facilitates the transformation of invention to impact. This immersive, seven-week experiential training program prepares scientists and engineers to extend their focus beyond the university laboratory — accelerating the economic and societal benefits of NSF-funded and other basic research projects that are ready to move toward commercialization. Visit the <a href="https://new.nsf.gov/funding/initiatives/i-corps/about-i-corps" target="_blank" rel="noopener noreferrer">NSF's I-Corps website</a> for more information.
+            </p>
+            <h4>Desert and Pacific Regional Hub 2023 - Cohort 6 - Fire Data Dynamics</h4>
+            <p>AIR's technology team is working with <a href="https://techlaunch.arizona.edu/" target="_blank" rel="noopener noreferrer">Tech Launch Arizona</a> on licesning for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology whicha has a strong focus on customer discovery and defining customer segments.</p>
+          </div>
+        </div>
+
         <div class="row">
           <div class="col-12">
             <h2 id="projects">Projects</h2> <!-- Note: This is not linked in main navigation since it's a dropdown -->
             <div class="container p-0">
               <div class="row">
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="fire-data-dynamics">Fire Data Dynamics </h3>
+                    <p class="card-text font-weight-normal">With data from the National Interagency Fire Center's (NIFC) Southwest Coordination Center (SWCC), and with funding from the University of Arizona's Technology and Research Initiative Fund (TRIF), we developed a fire data dashboard prototype designed to be used by and inform decision makers of environmental factors leading up to, during, and post fire events.</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#fire-data-dynamics-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
+                <div class="col col-12 col-md-6">
+                  <div class="card card-borderless card-clickable">
+                    <h3 class="card-title h4" id="raws-machine-learning">Remote Automated Weather Stations (RAWS) Machine Learning</h3>
+                    <p class="card-text font-weight-normal">RAWS intro info here</p>
+                    <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#raws-machine-learning-modal" role="button">More Information</button></p>
+                  </div>
+                </div>
                 <div class="col col-12 col-md-6">
                   <div class="card card-borderless card-clickable">
                     <h3 class="card-title h4" id="carbon-econ-plotter">Carbon-Econ Plotter</h3>
@@ -633,6 +680,42 @@
             <p>This Python package serves as a wrapper to simplify REST API calls to the monsoon scraper data warehouse. This is the same dataset that is visually represented in our monsoon plotter found at <a href="https://monsoon.environment.arizona.edu/" target="_blank" rel="noopener noreferrer">monsoon.environment.arizona.edu</a>. The plotter allows a limited export of the data dependent on the date range and sensor network being plotted. This package allows you to incorporate our monsoon dataset into a local codebase for processing.</p>
             <p>This package also contains a Command Line Interface (CLI) tool for those who prefer to work within a CLI instead of the Python package.</p>
             <p>This repository is in the process of being published to The Python Package Index (PyPi) which serves as a repository of Python software. Instructions will be added here to install the package once published.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- RAWS Machine Learning -->
+    <div id="raws-machine-learning-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="raws-machine-learning-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="raws-machine-learning-label">RAWS Machine Learning</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>More RAWS ML data here.</p>
+            <hr>
+            <img src="images/gradientBoosting.png" class="img-fluid">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Fire Data Dynamics -->
+    <div id="fire-data-dynamics-modal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="fire-data-dynamics-label" aria-hidden="true">
+      <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="fire-data-dynamics-label">Fire Data Dynamics</h3>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <p>Using data from past fire events in Arizona and New Mexico, our dashboard displays fire occurrences and their locations, fire burn perimeters (when available), and relevant data from Remote Automated Weather Stations (RAWS) during those fire events. The current prototype also allows stakeholders to export this historical data for use with their own analysis. In addition, new features are being developed to incorporate a live fire viewer, perform predictive machine learning analysis for determining fire weather and occurrence likelihood, and incorporating Weather Research & Forecasting Model (WRF) to inform decision makers of the impact weather could have during fire events.</p>
+            <hr>
+            <img src="images/firedatadashboard.png" class="img-fluid">
           </div>
         </div>
       </div>
