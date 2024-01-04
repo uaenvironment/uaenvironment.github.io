@@ -45,7 +45,8 @@
             </li>
             <li class="nav-item">
               <a class="nav-link" href="#proposals">Proposals</a>
-            </li><li class="nav-item">
+            </li>
+            <li class="nav-item">
               <a class="nav-link" href="#tech-transfer">Technology Transfer</a>
             </li>
             <li class="nav-item dropdown">
@@ -91,7 +92,7 @@
               <p>We are the Technical Research Applications Development group found within the <a href="https://air.arizona.edu" target="_blank" rel="noopener noreferrer">Arizona Institute for Resilience</a> (AIR). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the <a href="https://air.arizona.edu/centers-programs" target="_blank" rel="noopener noreferrer">Centers and Programs</a> found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.</p>
               <p>The research applications group is led by <a href="https://github.com/reyg3" target="_blank" rel="noopener noreferrer">Rey Granillo</a> Director of Technology and Research Computing, <a href="https://github.com/lboeman" target="_blank" rel="noopener noreferrer">Leland Boeman</a> Research & Development Software Engineer, and <a href="https://github.com/tweissaz" target="_blank" rel="noopener noreferrer">Thomas Weiss</a> Research & Development Systems Engineer.</p>
 
-              <h3>Our specialty</h3>
+              <h3>Our skillsets</h3>
               <ul>
                 <li>Research focused software development</li>
                 <li>Cloud computing</li>
@@ -317,7 +318,7 @@
             <p>The U.S. National Science Foundation’s Innovation Corps (I-Corps™) program is an immersive, entrepreneurial training program that facilitates the transformation of invention to impact. This immersive, seven-week experiential training program prepares scientists and engineers to extend their focus beyond the university laboratory — accelerating the economic and societal benefits of NSF-funded and other basic research projects that are ready to move toward commercialization. Visit the <a href="https://new.nsf.gov/funding/initiatives/i-corps/about-i-corps" target="_blank" rel="noopener noreferrer">NSF's I-Corps website</a> for more information.
             </p>
             <h4>Desert and Pacific Regional Hub 2023 - Cohort 6 - Fire Data Dynamics</h4>
-            <p>AIR's technology team is working with <a href="https://techlaunch.arizona.edu/" target="_blank" rel="noopener noreferrer">Tech Launch Arizona</a> on licesning for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology whicha has a strong focus on customer discovery and defining customer segments.</p>
+            <p>AIR's technology team is working with <a href="https://techlaunch.arizona.edu/" target="_blank" rel="noopener noreferrer">Tech Launch Arizona</a> on licensing for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology which has a strong focus on customer discovery and defining customer segments.</p>
           </div>
         </div>
 
@@ -336,7 +337,7 @@
                 <div class="col col-12 col-md-6">
                   <div class="card card-borderless card-clickable">
                     <h3 class="card-title h4" id="raws-machine-learning">Remote Automated Weather Stations (RAWS) Machine Learning</h3>
-                    <p class="card-text font-weight-normal">RAWS intro info here</p>
+                    <p class="card-text font-weight-normal">Leveraging historical RAWS data from the past 20 years alongside popular machine learning technologies, we were able to build models to predict wind speed, temperature, and relative humidity conditions for 6-, 12-, and 24-hour time periods.</p>
                     <p><button class="stretched-link btn btn-outline-red" data-toggle="modal" data-target="#raws-machine-learning-modal" role="button">More Information</button></p>
                   </div>
                 </div>
@@ -695,9 +696,21 @@
             </button>
           </div>
           <div class="modal-body">
-            <p>More RAWS ML data here.</p>
-            <hr>
-            <img src="images/gradientBoosting.png" class="img-fluid">
+            <h4>RAWS Data</h4>
+            <p>20 years of weather data was pulled for specific stations in AZ during this prototype phase. The data was then cleaned and scaled for use with the intended machine learning technologies.</p>
+            <h4>Python Package</h4>
+            <p>A custom RAWSTraining Python package was developed to easily clean and prepare data for use with Tensorflow and Keras to build multi-step forecasting models. With custom classes used for Training and making Predictions, training and testing took only a couple of hours for a single station to be deployed (with non-GPU enabled hardware).</p>
+            <h4>Web Application</h4>
+            <p>An application built with Vue3, Firebase, and Firestore was launched to show the predictions and their respective stations. This application featured flagging for potential fireweather conditions, and also assessed the models in realtime to showcase the validity of the predictions being made.</p>
+            <p>Future implementations of this project will exist within the Fire Data Dynamics prototype.</p>
+            <figure class="figure">
+              <img src="images/fwmachinelearning-map.png" class="img-fluid" alt="Screenshot of the web application showing a station and the generated flags.">
+              <figcaption class="figure-caption">A screenshot showing the RINCON station and the application's flagging functionality.</figcaption>
+            </figure>
+            <figure class="figure">
+              <img src="images/fwmachinelearning-graph.png" class="img-fluid" alt="Graph showing a comparison between the predictive model and real, measured data.">
+              <figcaption class="figure-caption">An graph showing a trained model's predictions against real, measured data.</figcaption>
+            </figure>
           </div>
         </div>
       </div>
