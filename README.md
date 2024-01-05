@@ -179,7 +179,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 <br />
 
-# <b>Technology Transfer</b>
+## Technology Transfer
 
 >### **National Science Foundation Innovation Corps (NSF I-Corps) Training Program**
 > The U.S. National Science Foundation’s Innovation Corps (I-Corps™) program is an immersive, entrepreneurial training program that facilitates the transformation of invention to impact. This immersive, seven-week experiential training program prepares scientists and engineers to extend their focus beyond the university laboratory — accelerating the economic and societal benefits of NSF-funded and other basic research projects that are ready to move toward commercialization. Visit the NSF's I-Corps website for more information.
