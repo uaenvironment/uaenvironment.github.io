@@ -207,7 +207,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >![Fire ML Map image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/fwmachinelearning-map.png?raw=true)
 >A screenshot showing the RINCON station and the application's flagging functionality.
 >
->![Fire ML Map image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/fwmachinelearning-map.png?raw=true)
+>![Fire ML Map image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/fwmachinelearning-graph.png?raw=true)
 >A graph showing a trained model's predictions against real, measured data.
 
 >### **Carbon-Econ Plotter**
