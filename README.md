@@ -231,10 +231,10 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >>#### **Monsoon Fantasy Game**
 >>In Monsoon Fantasy, players estimate the total monthly precipitation at each of the five major cities in the U.S. Southwest Monsoon region: Tucson, Phoenix, Flagstaff, Albuquerque, and El Paso. Points are awarded each month depending on the accuracy of the estimate compared to the actual observed rainfall. The goal is to accumulate the most points over the July, August, September period.
 >>
->| | |
->|---|---|
->|![Monsoon Game Forecast](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon-game-forecast.png?raw=true)| ![Monsoon Game Leaderboard](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon-game-leaderboard.png?raw=true)|
->|||
+>>| | |
+>>|---|---|
+>>|![Monsoon Game Forecast](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon-game-forecast.png?raw=true)| ![Monsoon Game Leaderboard](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon-game-leaderboard.png?raw=true)|
+>>|||
 >
 ><br />
 >
@@ -249,7 +249,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >>
 >>This repository contains a description of the scoring system used in the Monsoon Fantasy game and a simulation that was created to compare different scoring methods before the final scoring method was decided upon. The final scoring method takes into account both the risk and accuracy of a players guess. First, a potential maximum points value is determined for a guess. This value is higher the further a guess is from the historical rainfall average. Then, the player gets a percentage of their potential maximum points value depending on how close their guess is to the actual rainfall. Visit our [public GitHub repository](https://github.com/uaenvironment/monsoon-game-scoring-method) for more detailed information.
 >>
->![Monsoon Game Scoring Graph](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_game_scoring.png?raw=true)
+>>![Monsoon Game Scoring Graph](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_game_scoring.png?raw=true)
 >
 ><br />
 >
@@ -261,7 +261,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >>
 >>All of the questions were optional and the responses were made anonymous before analysis. This data combined with the users' forecasts and points earned were used in this analysis which will be performed and the end of every monsoon season.
 >>
->![Monsoon Game Post Analysis](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_game_post.png?raw=true)
+>>![Monsoon Game Post Analysis](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_game_post.png?raw=true)
 
 <br />
 
