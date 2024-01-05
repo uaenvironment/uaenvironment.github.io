@@ -191,7 +191,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >### **Fire Data Dynamics**
 >With data from the National Interagency Fire Center's (NIFC) Southwest Coordination Center (SWCC), and with funding from the University of Arizona's Technology and Research Initiative Fund (TRIF), we developed a fire data dashboard prototype designed to be used by and inform decision makers during fire events. Using data from past fire events in Arizona and New Mexico, our dashboard displays fire occurrences and their locations, fire burn perimeters (when available), and relevant data from Remote Automated Weather Stations (RAWS) during those fire events. The current prototype also allows stakeholders to export this historical data for use with their own analysis. In addition, new features are being developed to incorporate a live fire viewer, perform predictive machine learning analysis for determining fire weather and occurrence likelihood, and incorporating Weather Research & Forecasting Model (WRF) to inform decision makers of the impact weather could have during fire events. 
 >
-![Fire Dashboard image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/firedatadashboard.png?raw=true)
+>![Fire Dashboard image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/firedatadashboard.png?raw=true)
 
 >### **Remote Automated Weather Stations (RAWS) Machine learning**
 >Leveraging historical RAWS data from the past 20 years alongside popular machine learning technologies, we were able to build models to predict wind speed, temperature, and relative humidity conditions for 6-, 12-, and 24-hour time periods.
@@ -203,18 +203,24 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >An application built with Vue3, Firebase, and Firestore was launched to show the predictions and their respective stations. This application featured flagging for potential fireweather conditions, and also assessed the models in realtime to showcase the validity of the predictions being made.
 >
 >Future implementations of this project will exist within the Fire Data Dynamics prototype.
+>
+>![Fire ML Map image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/fwmachinelearning-map.png?raw=true)
+>A screenshot showing the RINCON station and the application's flagging functionality.
+>
+>![Fire ML Map image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/fwmachinelearning-map.png?raw=true)
+>A graph showing a trained model's predictions against real, measured data.
 
 >### **Carbon-Econ Plotter**
 >Methane emissions have an outsized impact on climate, and are increasingly receiving attention from policymakers and the scientific community. We map methane plume emission rates measured by [Carbon Mapper](https://carbonmapper.org) onto tract-level demographics from the U.S. Census Bureau to explore environmental justice issues associated with the methane emissions. Carbon Mapper collects methane emission data through their airborne pilot projects with advanced remote sensing technology. Census tract-level demographics are obtained from the 2009-2012 five-year moving average [American Community Survey](https://www.census.gov/programs-surveys/acs). This map and scatter plots can be viewed at [Carbon Plotter](https://carbon-plotter.air.arizona.edu/map) website.
 >
-![Carbon Plotter Map Image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/carbonplotter.png?raw=true)
+>![Carbon Plotter Map Image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/carbonplotter.png?raw=true)
 
 <br />
 
 >### **LoRaWAN Remote Sensing Network**
 >LoRaWAN is a Low Power Wide Area Networking (LPWAN) open communications protocol used in a variety of remote sensing and Internet of Things (IoT) applications. AIR supports the [Desert Laboratory on Tumamoc Hill](https://tumamoc.arizona.edu/) which is an 860-acre preserve located west of downtown Tucson. AIR has a number of LoRaWAN Gateways and is using Tumamoc as our current testbed for future remote sensing projects.
 >
-![Tumamoc LoRaWAN image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/lorawan_tumamoc.jpg?raw=true)
+>![Tumamoc LoRaWAN image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/lorawan_tumamoc.jpg?raw=true)
 
 <br />
 
@@ -296,7 +302,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >>#### **Monsoon Plotter**
 >>Monsoon Plotter is used to visually represent the data gathered via the Monsoon Scraper project which collects data from the state of Arizona flood control district (FCD) remote sensing networks. There are a handful of networks that can be plotted and more will be added as we expand our Monsoon Scraper project to gather more data. There is also a limited CSV export feature available of the specific data points chosen to be plotted. For full exports of data an API key is required to make programmatic calls to the Monsoon API.
 >>
->![Monsoon Plotter](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_plotter.png?raw=true)
+>>![Monsoon Plotter](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/monsoon_plotter.png?raw=true)
 >
 ><br />
 >
@@ -312,7 +318,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >>#### **Monsoon Machine Learning**
 >>This repository contains code in R and Python that demonstrates how to create basic machine learning algorithms. It then takes historical weather data from the Tucson International Airport, precipitation data from our Monsoon API, and storm data from NOAA and applies these machine learning algorithms in an attempt to accurately predict flooding using historic data and a database of notable flood and rainfall events. 
 >>
->![Monsoon Machine Learning](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/gradientBoosting.png?raw=true)
+>>![Monsoon Machine Learning](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/gradientBoosting.png?raw=true)
 
 <br />
 
@@ -325,7 +331,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >
 >This was a collaboration between a technology company in Lebanon called Imperium Code and other Lebanon non-profits. Our role in the overall project was to provide the mapping solution for the data set. This included mapping the points, displaying their categorizations, as well as implementing a tooltip/popup to display information about each data point. This work can be found on the [Regenerate Hub](https://regeneratehub.org) site.
 >
-![Regenerate Lebanon Map](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/regenerate_lebanon.png?raw=true)
+>![Regenerate Lebanon Map](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/regenerate_lebanon.png?raw=true)
 
 <br />
 
@@ -339,14 +345,14 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >### **Project Visualizations**
 >This project was developed for the [Agnese Nelms Haury Program in Environment and Social Justice](https://haury.arizona.edu) proposal submission process for research funding. The idea was to use models and algorithms in Natural Language Processing (NLP) to find similarities or potential collaboration opportunities across abstract and proposal submissions. We incorporated a number of models/algorithms in this process to determine which is best suited for the particular set of research themes.
 >
-![Project Visualization Graphic](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/proj_visualizer.png?raw=true)
+>![Project Visualization Graphic](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/proj_visualizer.png?raw=true)
 
 <br />
 
 >### **Zambia Invasive Species Tracking**
 >This invasive species tracking application was designed to plot the detection of the Fall Army Worm (FAW) across maize crops in Zambia. The result of this tracking helped governmental agriculture decision makers in focussing remediation efforts of FAW. To achieve this we worked with data aggregated via analog phone text messaging that was collected by an company in Africa called TextIt. We export that data in a format that allowed us to store responses in a relational way to more easily pull data into our front-end plotter. This data was gathered every 2 weeks during their grow season and plotted via the text campaign date. This application was architected in a way that would allow us to track other species in future research. More information about this project can be found on our [FAW environment](http://faw.environment.arizona.edu) site.
 >
-![Zambia FAW Distribution](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/zambia_faw.png?raw=true)
+>![Zambia FAW Distribution](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/zambia_faw.png?raw=true)
 
 <br />
 
@@ -374,7 +380,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <a href="https://github.com/rogerpalmenberg">
   <img src="https://github.com/rogerpalmenberg.png" width="25"> Roger Palmenberg
 </a> 
-
+<br />
 <a href="https://github.com/lilymcmullen">
   <img src="https://github.com/lilymcmullen.png" width="25"> Lily McMullen
 </a> 
@@ -386,7 +392,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <a href="https://github.com/dharmahoy">
   <img src="https://github.com/dharmahoy.png" width="25"> Dharma Hoy
 </a>
-
+<br />
 <a href="https://github.com/rose-prendergast">
   <img src="https://github.com/rose-prendergast.png" width="25"> Rose Prendergast
 </a>
