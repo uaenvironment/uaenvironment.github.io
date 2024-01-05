@@ -182,7 +182,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 >### **National Science Foundation Innovation Corps (NSF I-Corps) Training Program**
 > The U.S. National Science Foundation’s Innovation Corps (I-Corps™) program is an immersive, entrepreneurial training program that facilitates the transformation of invention to impact. This immersive, seven-week experiential training program prepares scientists and engineers to extend their focus beyond the university laboratory — accelerating the economic and societal benefits of NSF-funded and other basic research projects that are ready to move toward commercialization. Visit the [NSF's I-Corps website](https://new.nsf.gov/funding/initiatives/i-corps) for more information.
 >#### **Desert and Pacific Regional Hub 2023 - Cohort 6 - Fire Data Dynamics**
->AIR's technology team is working with Tech Launch Arizona on licensing for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology which has a strong focus on customer discovery and defining customer segments.
+>AIR's technology team is working with Tech Launch Arizona on licensing for our Fire Data Dynamics prototype to help make meaningful impacts in fire prediction, response, and analysis. As part of this licensing process, we participated in NSF's I-Corps where we learned about the Lean Startup Methodology with a strong focus on customer discovery and learning about the challenges being faced to ensure we are providing a solution with meaningful impact.
 
 <br />
 
@@ -190,6 +190,8 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 >### **Fire Data Dynamics**
 >With data from the National Interagency Fire Center's (NIFC) Southwest Coordination Center (SWCC), and with funding from the University of Arizona's Technology and Research Initiative Fund (TRIF), we developed a fire data dashboard prototype designed to be used by and inform decision makers during fire events. Using data from past fire events in Arizona and New Mexico, our dashboard displays fire occurrences and their locations, fire burn perimeters (when available), and relevant data from Remote Automated Weather Stations (RAWS) during those fire events. The current prototype also allows stakeholders to export this historical data for use with their own analysis. In addition, new features are being developed to incorporate a live fire viewer, perform predictive machine learning analysis for determining fire weather and occurrence likelihood, and incorporating Weather Research & Forecasting Model (WRF) to inform decision makers of the impact weather could have during fire events. 
+>
+![Fire Dashboard image](https://github.com/uaenvironment/uaenvironment.github.io/blob/master/images/firedatadashboard.png?raw=true)
 
 >### **Remote Automated Weather Stations (RAWS) Machine learning**
 >Leveraging historical RAWS data from the past 20 years alongside popular machine learning technologies, we were able to build models to predict wind speed, temperature, and relative humidity conditions for 6-, 12-, and 24-hour time periods.
