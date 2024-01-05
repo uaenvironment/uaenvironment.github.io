@@ -21,7 +21,7 @@ We are the Technical Research Applications Development group found within the [A
 
 The research applications group is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research Computing, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
 
-### Our skillsets
+### Our proficiencies
 - Research focused software development
 - Cloud computing
 - Data assimilation, processing, and presentation
