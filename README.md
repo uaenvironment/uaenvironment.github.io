@@ -383,7 +383,11 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <br />
 <a href="https://github.com/lilymcmullen">
   <img src="https://github.com/lilymcmullen.png" width="25"> Lily McMullen
-</a> 
+</a>
+<br />
+<a href="https://github.com/joeybish"	>
+  <img src="https://github.com/joeybish.png" width="25"> Joseph Bishop
+</a>
 
 ---
 
