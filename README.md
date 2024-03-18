@@ -47,6 +47,9 @@ Our current student cohort includes:
 - [Lily McMullen](https://github.com/lilymcmullen)
   - Majors: Natural Resources (Conservation Biology) and Computer Science
 
+- [Joseph Bishop](https://github.com/joeybish)
+  - Majors: Ecology & Evolutionary Biology and Optical Sciences & Engineering
+
 ## Research Collaborators
 In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
 
@@ -383,7 +386,11 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 <br />
 <a href="https://github.com/lilymcmullen">
   <img src="https://github.com/lilymcmullen.png" width="25"> Lily McMullen
-</a> 
+</a>
+<br />
+<a href="https://github.com/joeybish">
+  <img src="https://github.com/joeybish.png" width="25"> Joseph Bishop
+</a>
 
 ---
 
