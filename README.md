@@ -23,7 +23,7 @@ TRAD is led by [Rey Granillo](https://github.com/reyg3) Director of Technology a
 
 ### Our proficiencies
 - Research & Development / Proof of Concept
-  - Research focusd software development
+  - Research-focused software development
   - Hardware and sensor development
 - Cloud computing infrastructure
   - Amazon Web Services (AWS)
