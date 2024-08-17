@@ -19,7 +19,7 @@
 ### Who we are
 The Technical Research Applications Development (TRAD) is a group of technology research professionals and students who provide technical research services and collaborations to the [Centers and Programs](https://air.arizona.edu/centers-programs) found within within the [Arizona Institute for Resilience (AIR)](https://air.arizona.edu). Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between.
 
-TRAD is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and R&D Engineering, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
+TRAD is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research & Development Engineering, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
 
 ### Our proficiencies
 - Research & Development / Proof of Concept
