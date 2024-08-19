@@ -17,28 +17,32 @@
 ## Overview
 
 ### Who we are
-We are the Technical Research Applications Development group found within the [Arizona Institute for Resilience (AIR)](https://air.arizona.edu). We are a group of technology professionals and students who provide a variety of technical services and collaborations to the [Centers and Programs](https://air.arizona.edu/centers-programs) found within AIR. Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between. AIR explores and develops solutions with campus and community partners that serve human and natural communities on a global scale by engaging a full array of disciplines, professional schools, international capacity, and entrepreneurial opportunities.
+The Technical Research Applications Development (TRAD) is a group of technology research professionals and students who provide technical research services and collaborations to the [Centers and Programs](https://air.arizona.edu/centers-programs) found within the [Arizona Institute for Resilience (AIR)](https://air.arizona.edu). Our project collaborations span the globe and make meaningful impacts from the desert southwestern United States to the Middle East and places in between.
 
-The research applications group is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research Computing, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
+TRAD is led by [Rey Granillo](https://github.com/reyg3) Director of Technology and Research & Development Engineering, [Leland Boeman](https://github.com/lboeman) Research & Development Software Engineer, and [Thomas Weiss](https://github.com/tweissaz) Research & Development Systems Engineer.
 
 ### Our proficiencies
-- Research focused software development
-- Cloud computing
+- Research & Development / Proof of Concept
+  - Research-focused software development
+  - Hardware and sensor development
+- Cloud computing infrastructure
+  - Amazon Web Services (AWS)
+  - Google Cloud Platform (GCP)
 - Data assimilation, processing, and presentation
 - Database architecture and development
 - Application Programming Interface (API) development
 - Remote sensing 
-  - LoRaWAN network gateways
-  - Designing and building microcontrollers
+  - LoRaWAN
+  - Microcontroller design and development
 - 3D printing
-- Machine learning
+- Machine Learning (ML)
 
 ### How we do it
 #### Development Process
-By developing and combining technologies, we incorporate novel technical solutions into new and existing research. Using a collaborative model, versus the typical service model found most in Information Technology, we can better understand project data, the research questions being asked, and provide higher quality research collaborations. Having that greater understanding has led us to find correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate with researchers during the proposal process and can provide a proof-of-concept application or tool showing what is technically feasible if project funding is awarded. Upon project completion, we aid with the technical writing portions of publications which outline our findings and technical solutions that were implemented.
+Using a collaborative model, TRAD members gain a broader understanding of the research questions being asked, and collaborators gain a better understanding of how cutting edge technology can be applied to their area of expertise. These collaborations have uncovered correlations in data that were not previously realized which have led to new research project ideas and proposals. We collaborate at each step of the research process from proposal development to publication. TRAD can provide a proof-of-concept application or tool showing what is technically feasible to add a competitive edge to proposals. Upon project completion, we aid with the technical writing of publications which outline our findings and technical solutions that were implemented.
 
 #### Student Support
-We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focussed critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
+We rely on student support and participation across all research projects. Student participation ranges from software development, technical hardware implementation, database architecture design and implementation, ML/AI research, and publication writing. To support these efforts, AIR has established a student research computing working group that primarily meets during the Fall and Spring semesters. This working group is a forum where we discuss new research technologies, ask questions, and where students can report on their current research activities. The intention is to create research focused critical thinking processes that can generate new ideas and concepts across various projects and collaborations.
 
 Our current student cohort includes:
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
@@ -51,7 +55,7 @@ Our current student cohort includes:
   - Majors: Ecology & Evolutionary Biology and Optical Sciences & Engineering
 
 ## Research Collaborators
-In addition to our core research applications development team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
+In addition to our core research team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
 
 <table>
   <tr>
