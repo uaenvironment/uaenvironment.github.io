@@ -199,7 +199,7 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 > AIR's TRAD will be working closely with researchers at Biosphere 2 (B2) on the deployment of a LoRaWAN remote sensing gateway and the development and deployment of custom environmental remote sensing hardware within B2's biomes. This work will test sensor and enclosure designs in preparation for potential field deployment at research sites around the globe.
 >
 >### **ALERTArizona Fire Camera Network**
-> In collaboration with [ALERTWest](https://www.alertwest.org/), AIR's TRAD will facilitate and maintain a network of environmental monitoring equipment to include cameras designed to detected wildfires using an Artificial Intelligence (AI) model built by CAL FIRE and ALERTCalifornia. This early warning system is backed by a 24/7 operations center supporting users of the system and also provides a human verification process for every AI detection.
+> In collaboration with [ALERTWest](https://www.alertwest.org/), AIR's TRAD will facilitate and maintain a network of environmental monitoring equipment to include cameras designed to detect wildfires using an Artificial Intelligence (AI) model built by CAL FIRE and ALERTCalifornia. This early warning system is backed by a 24/7 operations center supporting users and provides human verification for every AI detection.
 
 <br />
 
