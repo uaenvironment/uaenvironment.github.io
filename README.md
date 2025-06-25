@@ -395,6 +395,11 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 </a> 
 <br />
 
+<a href="https://github.com/xbeyllx">
+  <img src="https://github.com/xbeyllx.png" width="25"> Minh Ngo
+</a> 
+<br />
+
 ---
 
 ### Former:
