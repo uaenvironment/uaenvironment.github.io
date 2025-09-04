@@ -47,6 +47,8 @@ We rely on student support and participation across all research projects. Stude
 Our current student cohort includes:
 - [Roger Palmenberg](https://github.com/rogerpalmenberg)
   - Major: Statistics and Data Science
+- [Minh Ngo](https://github.com/xbeyllx)
+  - Major: Computer Science
 
 ## Research Collaborators
 In addition to our core research team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
@@ -390,6 +392,11 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 
 <a href="https://github.com/rogerpalmenberg">
   <img src="https://github.com/rogerpalmenberg.png" width="25"> Roger Palmenberg
+</a> 
+<br />
+
+<a href="https://github.com/xbeyllx">
+  <img src="https://github.com/xbeyllx.png" width="25"> Minh Ngo
 </a> 
 <br />
 
