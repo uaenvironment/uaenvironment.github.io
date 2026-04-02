@@ -49,6 +49,8 @@ Our current student cohort includes:
   - Major: Statistics and Data Science
 - [Minh Ngo](https://github.com/xbeyllx)
   - Major: Computer Science
+- [Therese Bunyi](https://github.com/therbun)
+  - Major: Computer Science and Math, Minor: Physiology and Medical Sciences
 
 ## Research Collaborators
 In addition to our core research team, we've had a number of collaborators across AIR programs and affiliated groups across the University of Arizona. 
