@@ -400,6 +400,11 @@ managers, and EXPLORE opportunities for aggregation, management, visualization, 
 </a> 
 <br />
 
+<a href="https://github.com/therbun">
+  <img src="https://github.com/therbun.png" width="25"> Therese Bunyi
+</a> 
+<br />
+
 ---
 
 ### Former:
